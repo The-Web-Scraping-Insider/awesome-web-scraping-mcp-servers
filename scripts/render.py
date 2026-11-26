@@ -124,14 +124,24 @@ def render_readme(servers, vendors, categories, caps, picks, stats):
       "# Claude Code: add a hosted server\nclaude mcp add --transport http <name> <endpoint-url>\n```\n")
 
     w("## Top 10\n")
-    w("Ranked by score (GitHub stars and recent activity; see [how the ranking works](#how-the-ranking-works)).\n")
-    w("| # | Server | Publisher | Type | Hosting | ⭐ Stars | Score |")
-    w("|---:|---|---|---|---|---:|---:|")
-    for i, s in enumerate(ranked[:10], 1):
-        typ = "Official" if s["type"] != "community" else "Community"
-        star = fmt_num(s["stars"]) + ("†" if s.get("catalog") and s["stars"] is not None else "")
-        w(f"| {i} | [{s['name']}]({item_url(s)}) | {publisher(s, vendors)} | {typ} | {HOSTING[s['hosting']]} | {star} | {s['score']} |")
-    w("\n<sub>† Stars belong to a bigger project that includes the MCP server, so they count for less in the score.</sub>\n")
+    w("Ranked by score (GitHub stars and recent activity; see [how the ranking works](#how-the-ranking-works)). "
+      "**Vendor** servers come from companies selling a scraping or data product; **open source** servers come from the authors of a free tool or library; **community** servers come from independent developers.\n")
+    type_label = {"official-vendor": "Vendor", "official-tool": "Open source", "community": "Community"}
+
+    def top_table(title, items, show_type=True):
+        w(f"### {title}\n")
+        w("| # | Server | Publisher |" + (" Type |" if show_type else "") + " Hosting | ⭐ Stars | Score |")
+        w("|---:|---|---|" + ("---|" if show_type else "") + "---|---:|---:|")
+        for i, s in enumerate(items[:10], 1):
+            star = fmt_num(s["stars"]) + ("†" if s.get("catalog") and s["stars"] is not None else "")
+            typ = f" {type_label[s['type']]} |" if show_type else ""
+            w(f"| {i} | [{s['name']}]({item_url(s)}) | {publisher(s, vendors)} |{typ} {HOSTING[s['hosting']]} | {star} | {s['score']} |")
+        w("")
+
+    top_table("🏆 Overall", ranked)
+    top_table("🏢 From vendors", [s for s in ranked if s["type"] == "official-vendor"], show_type=False)
+    top_table("👥 Open source & community", [s for s in ranked if s["type"] != "official-vendor"])
+    w("<sub>† Stars belong to a bigger project that includes the MCP server, so they count for less in the score.</sub>\n")
 
     w("## Quick picks\n")
     w("| I need to… | Try |")

@@ -41,20 +41,52 @@ claude mcp add --transport http <name> <endpoint-url>
 
 ## Top 10
 
-Ranked by score (GitHub stars and recent activity; see [how the ranking works](#how-the-ranking-works)).
+Ranked by score (GitHub stars and recent activity; see [how the ranking works](#how-the-ranking-works)). **Vendor** servers come from companies selling a scraping or data product; **open source** servers come from the authors of a free tool or library; **community** servers come from independent developers.
+
+### 🏆 Overall
 
 | # | Server | Publisher | Type | Hosting | ⭐ Stars | Score |
 |---:|---|---|---|---|---:|---:|
-| 1 | [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools (Google) | Official | 🏠 Local | 57.3K | 85.0 |
-| 2 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Microsoft | Official | 🏠 Local | 39.7K | 82.2 |
-| 3 | [Scrapling MCP](https://github.com/D4Vinci/Scrapling) | Scrapling | Official | 🏠 Local | 103.5K† | 78.8 |
-| 4 | [Apify MCP](https://github.com/apify/apify-mcp-server) | Apify | Official | ☁️ Hosted · 🏠 Local | 16.5K | 75.3 |
-| 5 | [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | Firecrawl | Official | ☁️ Hosted · 🏠 Local | 7.8K | 69.5 |
-| 6 | [Browser MCP](https://github.com/browsermcp/mcp) | Browser MCP | Official | 🏠 Local | 7.3K | 69.0 |
+| 1 | [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools (Google) | Open source | 🏠 Local | 57.3K | 85.0 |
+| 2 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Microsoft | Open source | 🏠 Local | 39.7K | 82.2 |
+| 3 | [Scrapling MCP](https://github.com/D4Vinci/Scrapling) | Scrapling | Open source | 🏠 Local | 103.5K† | 78.8 |
+| 4 | [Apify MCP](https://github.com/apify/apify-mcp-server) | Apify | Vendor | ☁️ Hosted · 🏠 Local | 16.5K | 75.3 |
+| 5 | [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | Firecrawl | Vendor | ☁️ Hosted · 🏠 Local | 7.8K | 69.5 |
+| 6 | [Browser MCP](https://github.com/browsermcp/mcp) | Browser MCP | Open source | 🏠 Local | 7.3K | 69.0 |
 | 7 | [Playwright MCP Server](https://github.com/executeautomation/mcp-playwright) | @executeautomation | Community | 🏠 Local | 5.7K | 67.1 |
-| 8 | [Skyvern MCP](https://github.com/Skyvern-AI/skyvern) | Skyvern | Official | ☁️ Hosted · 🏠 Local | 22.1K† | 66.9 |
-| 9 | [Exa MCP](https://github.com/exa-labs/exa-mcp-server) | Exa | Official | ☁️ Hosted · 🏠 Local | 5.2K | 66.4 |
-| 10 | [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | Bright Data | Official | ☁️ Hosted · 🏠 Local | 2.7K | 61.3 |
+| 8 | [Skyvern MCP](https://github.com/Skyvern-AI/skyvern) | Skyvern | Vendor | ☁️ Hosted · 🏠 Local | 22.1K† | 66.9 |
+| 9 | [Exa MCP](https://github.com/exa-labs/exa-mcp-server) | Exa | Vendor | ☁️ Hosted · 🏠 Local | 5.2K | 66.4 |
+| 10 | [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | Bright Data | Vendor | ☁️ Hosted · 🏠 Local | 2.7K | 61.3 |
+
+### 🏢 From vendors
+
+| # | Server | Publisher | Hosting | ⭐ Stars | Score |
+|---:|---|---|---|---:|---:|
+| 1 | [Apify MCP](https://github.com/apify/apify-mcp-server) | Apify | ☁️ Hosted · 🏠 Local | 16.5K | 75.3 |
+| 2 | [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | Firecrawl | ☁️ Hosted · 🏠 Local | 7.8K | 69.5 |
+| 3 | [Skyvern MCP](https://github.com/Skyvern-AI/skyvern) | Skyvern | ☁️ Hosted · 🏠 Local | 22.1K† | 66.9 |
+| 4 | [Exa MCP](https://github.com/exa-labs/exa-mcp-server) | Exa | ☁️ Hosted · 🏠 Local | 5.2K | 66.4 |
+| 5 | [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | Bright Data | ☁️ Hosted · 🏠 Local | 2.7K | 61.3 |
+| 6 | [Tavily MCP](https://github.com/tavily-ai/tavily-mcp) | Tavily | ☁️ Hosted · 🏠 Local | 2.5K | 60.7 |
+| 7 | [Hyperbrowser MCP](https://github.com/hyperbrowserai/mcp) | Hyperbrowser | 🏠 Local | 791 | 51.8 |
+| 8 | [AgentQL MCP](https://github.com/tinyfish-io/agentql-mcp) | AgentQL (TinyFish) | 🏠 Local | 172 | 40.0 |
+| 9 | [Browserbase MCP](https://github.com/browserbase/mcp-server-browserbase) | Browserbase | ☁️ Hosted · 🏠 Local | 3.4K | 31.5 |
+| 10 | [Steel MCP](https://github.com/steel-dev/steel-mcp-server) | Steel | 🏠 Local | 43 | 29.4 |
+
+### 👥 Open source & community
+
+| # | Server | Publisher | Type | Hosting | ⭐ Stars | Score |
+|---:|---|---|---|---|---:|---:|
+| 1 | [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools (Google) | Open source | 🏠 Local | 57.3K | 85.0 |
+| 2 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Microsoft | Open source | 🏠 Local | 39.7K | 82.2 |
+| 3 | [Scrapling MCP](https://github.com/D4Vinci/Scrapling) | Scrapling | Open source | 🏠 Local | 103.5K† | 78.8 |
+| 4 | [Browser MCP](https://github.com/browsermcp/mcp) | Browser MCP | Open source | 🏠 Local | 7.3K | 69.0 |
+| 5 | [Playwright MCP Server](https://github.com/executeautomation/mcp-playwright) | @executeautomation | Community | 🏠 Local | 5.7K | 67.1 |
+| 6 | [Invisible Playwright MCP](https://github.com/oss-invisible/playwright_mcp) | @oss-invisible | Community | 🏠 Local | 865 | 52.5 |
+| 7 | [fetch-mcp](https://github.com/zcaceres/fetch-mcp) | @zcaceres | Community | 🏠 Local | 836 | 52.2 |
+| 8 | [Selenium MCP](https://github.com/angiejones/mcp-selenium) | @angiejones | Community | 🏠 Local | 431 | 47.1 |
+| 9 | [mcp-server-browser-use](https://github.com/Saik0s/mcp-browser-use) | @Saik0s | Community | 🏠 Local | – | 0.0 |
+| 10 | [browser-use-mcp-server](https://github.com/kontext-dev/browser-use-mcp-server) | @kontext-dev | Community | 🏠 Local | – | 0.0 |
 
 <sub>† Stars belong to a bigger project that includes the MCP server, so they count for less in the score.</sub>
 
