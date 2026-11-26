@@ -1,0 +1,17 @@
+# Editorial "I need X → try Y" shortcuts. Keep vendor-neutral: include a free option where one exists, max three per row.
+- need: Get past Cloudflare and other anti-bot systems
+  servers: [scrapling-mcp, brightdata-mcp, zenrows-mcp]
+- need: Turn any URL into clean markdown
+  servers: [firecrawl-mcp, jina-mcp, mcp-fetch]
+- need: Crawl an entire site
+  servers: [firecrawl-mcp, crawl4ai-mcp, tavily-mcp]
+- need: Drive a browser on my machine (logins, clicks)
+  servers: [playwright-mcp, chrome-devtools-mcp, browser-mcp]
+- need: Run browsers in the cloud
+  servers: [browserbase-mcp, hyperbrowser-mcp, steel-mcp]
+- need: Scrape Amazon, LinkedIn, Google Maps or TikTok without writing a scraper
+  servers: [apify-mcp, brightdata-mcp, oxylabs-mcp]
+- need: Connect with a URL, nothing to install
+  servers: [jina-mcp, firecrawl-mcp, scrapfly-mcp]
+- need: Free, no API key
+  servers: [playwright-mcp, scrapling-mcp, crawl4ai-mcp]

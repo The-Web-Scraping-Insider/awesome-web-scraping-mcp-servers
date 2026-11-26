@@ -1,0 +1,31 @@
+# Companies and projects that publish official web scraping MCP servers.
+# `id` is referenced by `vendor:` in servers.yaml.
+
+- {id: agentql, name: AgentQL (TinyFish), site: https://www.agentql.com, kind: "AI extraction API"}
+- {id: apify, name: Apify, site: https://apify.com, kind: "Scraping platform & Actor marketplace"}
+- {id: bright-data, name: Bright Data, site: https://brightdata.com, kind: "Proxies, unblocker & scraping APIs"}
+- {id: browser-mcp, name: Browser MCP, site: https://browsermcp.io, kind: "Local browser control"}
+- {id: browserbase, name: Browserbase, site: https://www.browserbase.com, kind: "Cloud browsers"}
+- {id: chrome-devtools, name: Chrome DevTools (Google), site: https://github.com/ChromeDevTools/chrome-devtools-mcp, kind: "Browser debugging & automation"}
+- {id: crawl4ai, name: Crawl4AI, site: https://crawl4ai.com, kind: "Open-source crawler"}
+- {id: decodo, name: Decodo, site: https://decodo.com, kind: "Proxies & scraping APIs"}
+- {id: exa, name: Exa, site: https://exa.ai, kind: "Search API"}
+- {id: firecrawl, name: Firecrawl, site: https://firecrawl.dev, kind: "Scraping & crawling API"}
+- {id: geekflare, name: Geekflare, site: https://geekflare.com/mcp/, kind: "Scraping & web tools API"}
+- {id: hyperbrowser, name: Hyperbrowser, site: https://www.hyperbrowser.ai, kind: "Cloud browsers"}
+- {id: jina, name: Jina AI, site: https://jina.ai, kind: "Reader & search API"}
+- {id: mcp-project, name: Model Context Protocol, site: https://modelcontextprotocol.io, kind: "Reference servers"}
+- {id: microsoft, name: Microsoft, site: https://playwright.dev, kind: "Browser automation framework"}
+- {id: notte, name: Notte, site: https://www.notte.cc, kind: "Cloud browsers & web agents"}
+- {id: olostep, name: Olostep, site: https://www.olostep.com, kind: "Scraping & crawling API"}
+- {id: oxylabs, name: Oxylabs, site: https://oxylabs.io, kind: "Proxies, unblocker & scraping APIs"}
+- {id: scrapegraphai, name: ScrapeGraphAI, site: https://scrapegraphai.com, kind: "AI scraping API"}
+- {id: scrapeops, name: ScrapeOps, site: https://scrapeops.io, kind: "Proxy aggregator & scraping tools"}
+- {id: scraperapi, name: ScraperAPI, site: https://www.scraperapi.com, kind: "Scraping API"}
+- {id: scrapfly, name: Scrapfly, site: https://scrapfly.io, kind: "Scraping API"}
+- {id: scrapingbee, name: ScrapingBee, site: https://www.scrapingbee.com, kind: "Scraping API"}
+- {id: scrapling, name: Scrapling, site: https://github.com/D4Vinci/Scrapling, kind: "Open-source scraping library"}
+- {id: skyvern, name: Skyvern, site: https://www.skyvern.com, kind: "AI browser automation"}
+- {id: steel, name: Steel, site: https://steel.dev, kind: "Cloud browsers"}
+- {id: tavily, name: Tavily, site: https://tavily.com, kind: "Search & extraction API"}
+- {id: zenrows, name: ZenRows, site: https://www.zenrows.com, kind: "Scraping API"}

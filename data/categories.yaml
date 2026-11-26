@@ -1,0 +1,29 @@
+# Display order in the README follows this file.
+- id: scraping-apis
+  title: Scraping APIs & Unblockers
+  emoji: "🛡️"
+  blurb: Hosted scraping APIs that fetch pages for you and deal with blocks, CAPTCHAs and JavaScript.
+- id: marketplaces
+  title: Marketplaces & Pre-built Scrapers
+  emoji: "📦"
+  blurb: Run ready-made scrapers for popular sites (Amazon, LinkedIn, Google Maps, TikTok…).
+- id: cloud-browsers
+  title: Cloud Browsers
+  emoji: "☁️"
+  blurb: Remote browsers the agent can drive, with sessions, proxies and stealth handled for you.
+- id: browser-control
+  title: Local Browser Control
+  emoji: "🌐"
+  blurb: Let the agent drive a browser on your own machine with Playwright, Selenium or Chrome DevTools.
+- id: stealth
+  title: Stealth & Anti-detect Browsers
+  emoji: "🥷"
+  blurb: Free, self-hosted browsers and fetchers built to avoid bot detection.
+- id: search-extraction
+  title: Search & Content Extraction
+  emoji: "🔎"
+  blurb: Web search, URL-to-markdown readers and structured extraction.
+- id: self-hosted
+  title: Self-hosted Crawlers
+  emoji: "🕸️"
+  blurb: Open-source crawlers you run yourself, no API key needed.

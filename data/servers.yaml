@@ -1,0 +1,602 @@
+# Source of truth for the list. README.md and the pages in categories/ and
+# vendors/ are generated from this file by scripts/render.py. Edit here, never
+# in README.md.
+#
+# Fields
+#   id           unique slug
+#   name         server name
+#   vendor       id from vendors.yaml, for official servers; omit for community servers
+#   author       GitHub user/org, for community servers
+#   type         official-vendor | official-tool | community
+#   category     see data/categories.yaml
+#   repo         owner/repo on GitHub (used for stars). Omit if closed source.
+#   catalog      true if the repo is a bigger project, so its stars say little about the MCP server itself
+#   url          link, if it differs from https://github.com/<repo>
+#   description  one sentence, no marketing language
+#   hosting      hosted | local | both   (hosted = remote MCP endpoint run by the vendor)
+#   endpoint     remote MCP URL, if hosted
+#   paid_api     true if it needs a paid account or API key to be useful
+#   free_tier    short note on the free plan, as stated in the vendor's docs
+#   capabilities tags from data/capabilities.yaml
+#   install      one-line install or connect command
+#   added        date added to this list
+
+# --------------------------------------------------------------------------
+# Scraping APIs & unblockers
+# --------------------------------------------------------------------------
+
+- id: brightdata-mcp
+  name: Bright Data MCP
+  vendor: bright-data
+  type: official-vendor
+  category: scraping-apis
+  repo: brightdata/brightdata-mcp
+  description: Search engines, markdown scraping, structured data for major platforms and a scraping browser, with bot-detection bypass and CAPTCHA solving.
+  hosting: both
+  endpoint: https://mcp.brightdata.com/mcp
+  paid_api: true
+  free_tier: 5,000 requests/month
+  capabilities: [anti-bot, js-rendering, browser-control, search, structured-extraction, proxies, markdown-output]
+  install: npx @brightdata/mcp
+  added: 2026-11-26
+
+- id: firecrawl-mcp
+  name: Firecrawl MCP
+  vendor: firecrawl
+  type: official-vendor
+  category: scraping-apis
+  repo: firecrawl/firecrawl-mcp-server
+  description: Search, scrape, map, crawl and extract structured data, with screenshots and page interaction; works with Firecrawl cloud or self-hosted.
+  hosting: both
+  endpoint: https://mcp.firecrawl.dev/v2/mcp
+  paid_api: true
+  free_tier: 1,000 credits/month
+  capabilities: [js-rendering, crawling, search, structured-extraction, markdown-output, screenshots]
+  install: npx -y firecrawl-mcp
+  added: 2026-11-26
+
+- id: oxylabs-mcp
+  name: Oxylabs MCP
+  vendor: oxylabs
+  type: official-vendor
+  category: scraping-apis
+  repo: oxylabs/oxylabs-mcp
+  description: Universal, Google and Amazon scrapers through the Web Scraper API, plus AI Studio tools for AI scraping, crawling, search and mapping.
+  hosting: both
+  endpoint: https://mcp.oxylabs.io/mcp
+  paid_api: true
+  free_tier: 1,000 AI Studio credits; one-week Web Scraper API trial
+  capabilities: [anti-bot, js-rendering, proxies, search, crawling, structured-extraction, markdown-output]
+  install: uvx oxylabs-mcp
+  added: 2026-11-26
+
+- id: zenrows-mcp
+  name: ZenRows MCP
+  vendor: zenrows
+  type: official-vendor
+  category: scraping-apis
+  repo: ZenRows/zenrows-mcp
+  description: Fetch live web content from sites that block bots, through the ZenRows scraping API.
+  hosting: both
+  endpoint: https://mcp.zenrows.com/mcp
+  paid_api: true
+  capabilities: [anti-bot, js-rendering, proxies, markdown-output]
+  install: npx -y @zenrows/mcp
+  added: 2026-11-26
+
+- id: decodo-mcp
+  name: Decodo MCP
+  vendor: decodo
+  type: official-vendor
+  category: scraping-apis
+  repo: Decodo/mcp-web-scraper
+  description: Connect agents to Decodo's Web Scraping API for live web data, with proxies and JS rendering.
+  hosting: local
+  paid_api: true
+  free_tier: Free trial
+  capabilities: [anti-bot, js-rendering, proxies]
+  install: see https://github.com/Decodo/mcp-web-scraper
+  added: 2026-11-26
+
+- id: scraperapi-mcp
+  name: ScraperAPI MCP
+  vendor: scraperapi
+  type: official-vendor
+  category: scraping-apis
+  url: https://www.scraperapi.com
+  description: Scrape with JS rendering, geo-targeting and premium proxies, plus structured results for Google, Amazon, Walmart, eBay and Redfin.
+  hosting: both
+  endpoint: https://mcp.scraperapi.com/mcp
+  paid_api: true
+  free_tier: 5,000 API credits
+  capabilities: [anti-bot, js-rendering, proxies, structured-extraction, search]
+  install: pip install scraperapi-mcp-server
+  added: 2026-11-26
+
+- id: scrapfly-mcp
+  name: Scrapfly MCP
+  vendor: scrapfly
+  type: official-vendor
+  category: scraping-apis
+  url: https://scrapfly.io/docs/mcp/integrations
+  description: Page retrieval with anti-bot bypass, screenshots, AI extraction and a cloud browser over CDP.
+  hosting: hosted
+  endpoint: https://mcp.scrapfly.io/mcp
+  paid_api: true
+  free_tier: 1,000 credits
+  capabilities: [anti-bot, js-rendering, browser-control, structured-extraction, screenshots]
+  install: "Remote: https://mcp.scrapfly.io/mcp"
+  added: 2026-11-26
+
+- id: scrapingbee-mcp
+  name: ScrapingBee MCP
+  vendor: scrapingbee
+  type: official-vendor
+  category: scraping-apis
+  url: https://www.scrapingbee.com
+  description: Page text and HTML, CSS/XPath extraction, screenshots, file downloads, web search and Amazon, Walmart and YouTube tools.
+  hosting: hosted
+  endpoint: https://mcp.scrapingbee.com/mcp
+  paid_api: true
+  free_tier: 1,000 credits
+  capabilities: [anti-bot, js-rendering, search, structured-extraction, screenshots]
+  install: "Remote: https://mcp.scrapingbee.com/mcp"
+  added: 2026-11-26
+
+- id: scrapegraph-mcp
+  name: ScrapeGraph MCP
+  vendor: scrapegraphai
+  type: official-vendor
+  category: scraping-apis
+  repo: ScrapeGraphAI/scrapegraph-mcp
+  description: AI-powered extraction with natural-language prompts, markdown conversion, search scraping, smart crawling and agentic multi-step scraping.
+  hosting: both
+  paid_api: true
+  capabilities: [js-rendering, crawling, search, structured-extraction, markdown-output]
+  install: pip install scrapegraph-mcp
+  added: 2026-11-26
+
+- id: olostep-mcp
+  name: Olostep MCP
+  vendor: olostep
+  type: official-vendor
+  category: scraping-apis
+  repo: olostep/olostep-mcp-server
+  description: Scrape, crawl, batch-extract and search the web through the Olostep API.
+  hosting: both
+  endpoint: https://mcp.olostep.com/mcp
+  paid_api: true
+  free_tier: 500 requests/month
+  capabilities: [js-rendering, crawling, search, markdown-output]
+  install: npx -y olostep-mcp
+  added: 2026-11-26
+
+- id: geekflare-mcp
+  name: Geekflare MCP
+  vendor: geekflare
+  type: official-vendor
+  category: scraping-apis
+  url: https://geekflare.com/mcp/
+  description: Scraping, search, metadata, screenshots and SEO, performance and security checks as 15 tools.
+  hosting: both
+  paid_api: true
+  free_tier: 500 credits
+  capabilities: [js-rendering, search, screenshots]
+  install: npx -y @geekflare/mcp
+  added: 2026-11-26
+
+- id: scrapeops-mcp
+  name: ScrapeOps MCP
+  vendor: scrapeops
+  type: official-vendor
+  category: scraping-apis
+  repo: ScrapeOps/scrapeops-mcp-server
+  description: MCP server for the ScrapeOps proxy aggregator and scraping APIs.
+  hosting: local
+  paid_api: true
+  capabilities: [anti-bot, proxies, js-rendering]
+  install: see https://github.com/ScrapeOps/scrapeops-mcp-server
+  added: 2026-11-26
+
+# --------------------------------------------------------------------------
+# Marketplaces & pre-built scrapers
+# --------------------------------------------------------------------------
+
+- id: apify-mcp
+  name: Apify MCP
+  vendor: apify
+  type: official-vendor
+  category: marketplaces
+  repo: apify/apify-mcp-server
+  description: Search the Apify Store and run any of thousands of ready-made scrapers (Actors) for social media, maps, e-commerce and more.
+  hosting: both
+  endpoint: https://mcp.apify.com
+  paid_api: true
+  free_tier: $5/month platform usage
+  capabilities: [anti-bot, structured-extraction, crawling, search]
+  install: npx -y @apify/actors-mcp-server
+  added: 2026-11-26
+
+# --------------------------------------------------------------------------
+# Cloud browsers
+# --------------------------------------------------------------------------
+
+- id: browserbase-mcp
+  name: Browserbase MCP
+  vendor: browserbase
+  type: official-vendor
+  category: cloud-browsers
+  repo: browserbase/mcp-server-browserbase
+  description: Cloud browsers driven by natural-language actions through Stagehand, with sessions, screenshots and parallel browsers.
+  hosting: both
+  endpoint: https://mcp.browserbase.com/mcp
+  paid_api: true
+  free_tier: 1 browser hour/month
+  capabilities: [browser-control, js-rendering, anti-bot, screenshots]
+  install: npx @browserbasehq/mcp
+  added: 2026-11-26
+
+- id: hyperbrowser-mcp
+  name: Hyperbrowser MCP
+  vendor: hyperbrowser
+  type: official-vendor
+  category: cloud-browsers
+  repo: hyperbrowserai/mcp
+  description: Scrape, extract structured data and crawl pages using Hyperbrowser's cloud browsers.
+  hosting: local
+  paid_api: true
+  capabilities: [browser-control, js-rendering, crawling, structured-extraction, anti-bot]
+  install: npx -y hyperbrowser-mcp
+  added: 2026-11-26
+
+- id: steel-mcp
+  name: Steel MCP
+  vendor: steel
+  type: official-vendor
+  category: cloud-browsers
+  repo: steel-dev/steel-mcp-server
+  description: Navigate the web with Puppeteer-based tools on Steel cloud or self-hosted browsers.
+  hosting: local
+  paid_api: true
+  capabilities: [browser-control, js-rendering]
+  install: npx -y github:steel-dev/steel-mcp-server
+  added: 2026-11-26
+
+- id: notte-mcp
+  name: Notte MCP
+  vendor: notte
+  type: official-vendor
+  category: cloud-browsers
+  repo: nottelabs/notte
+  catalog: true
+  description: Cloud browser sessions with observe, scrape and act tools, plus a web agent that completes tasks on any site.
+  hosting: local
+  paid_api: true
+  capabilities: [browser-control, js-rendering, structured-extraction, screenshots]
+  install: pip install notte-mcp
+  added: 2026-11-26
+
+- id: skyvern-mcp
+  name: Skyvern MCP
+  vendor: skyvern
+  type: official-vendor
+  category: cloud-browsers
+  repo: Skyvern-AI/skyvern
+  catalog: true
+  description: Vision-plus-DOM browser agent for multi-step jobs like logging in, filling forms and downloading files; self-hosted or Skyvern Cloud.
+  hosting: both
+  paid_api: false
+  capabilities: [browser-control, js-rendering, structured-extraction, open-source]
+  install: pip install skyvern && skyvern init
+  added: 2026-11-26
+
+# --------------------------------------------------------------------------
+# Local browser control
+# --------------------------------------------------------------------------
+
+- id: playwright-mcp
+  name: Playwright MCP
+  vendor: microsoft
+  type: official-tool
+  category: browser-control
+  repo: microsoft/playwright-mcp
+  description: Drive Chrome, Firefox or WebKit through accessibility snapshots, with 70+ tools for navigation, forms, screenshots and tracing.
+  hosting: local
+  paid_api: false
+  capabilities: [browser-control, js-rendering, screenshots, open-source]
+  install: npx @playwright/mcp@latest
+  added: 2026-11-26
+
+- id: chrome-devtools-mcp
+  name: Chrome DevTools MCP
+  vendor: chrome-devtools
+  type: official-tool
+  category: browser-control
+  repo: ChromeDevTools/chrome-devtools-mcp
+  description: Control and inspect a live Chrome browser, including network requests, console and performance traces.
+  hosting: local
+  paid_api: false
+  capabilities: [browser-control, js-rendering, screenshots, open-source]
+  install: npx chrome-devtools-mcp@latest
+  added: 2026-11-26
+
+- id: browser-mcp
+  name: Browser MCP
+  vendor: browser-mcp
+  type: official-tool
+  category: browser-control
+  repo: browsermcp/mcp
+  description: Automate your own local Chrome, including its logged-in sessions, through a browser extension.
+  hosting: local
+  paid_api: false
+  capabilities: [browser-control, js-rendering, open-source]
+  install: npx @browsermcp/mcp@latest
+  added: 2026-11-26
+
+- id: executeautomation-playwright
+  name: Playwright MCP Server
+  author: executeautomation
+  type: community
+  category: browser-control
+  repo: executeautomation/mcp-playwright
+  description: Playwright browser and API automation for Claude Desktop, Cursor, Cline and other clients.
+  hosting: local
+  paid_api: false
+  capabilities: [browser-control, js-rendering, screenshots, open-source]
+  install: npx -y @executeautomation/playwright-mcp-server
+  added: 2026-11-26
+
+- id: mcp-selenium
+  name: Selenium MCP
+  author: angiejones
+  type: community
+  category: browser-control
+  repo: angiejones/mcp-selenium
+  description: Control browsers through Selenium WebDriver.
+  hosting: local
+  paid_api: false
+  capabilities: [browser-control, js-rendering, open-source]
+  install: npx -y @angiejones/mcp-selenium
+  added: 2026-11-26
+
+- id: saik0s-browser-use
+  name: mcp-server-browser-use
+  author: Saik0s
+  type: community
+  category: browser-control
+  repo: Saik0s/mcp-browser-use
+  description: Wraps the browser-use agent so an MCP client can hand it natural-language browsing and research tasks.
+  hosting: local
+  paid_api: false
+  capabilities: [browser-control, js-rendering, structured-extraction, open-source]
+  install: uvx mcp-server-browser-use@latest
+  added: 2026-11-26
+
+- id: kontext-browser-use
+  name: browser-use-mcp-server
+  author: kontext-dev
+  type: community
+  category: browser-control
+  repo: kontext-dev/browser-use-mcp-server
+  description: Run browser-use as an MCP server over SSE or stdio, with Docker and VNC support.
+  hosting: local
+  paid_api: false
+  capabilities: [browser-control, js-rendering, open-source]
+  install: see https://github.com/kontext-dev/browser-use-mcp-server
+  added: 2026-11-26
+
+# --------------------------------------------------------------------------
+# Stealth & anti-detect browsers
+# --------------------------------------------------------------------------
+
+- id: scrapling-mcp
+  name: Scrapling MCP
+  vendor: scrapling
+  type: official-tool
+  category: stealth
+  repo: D4Vinci/Scrapling
+  catalog: true
+  description: Stealth HTTP and browser fetching with Cloudflare handling and CSS-selector extraction, from the Scrapling library.
+  hosting: local
+  paid_api: false
+  capabilities: [anti-bot, js-rendering, browser-control, structured-extraction, open-source]
+  install: pip install "scrapling[ai]" && scrapling mcp
+  added: 2026-11-26
+
+- id: invisible-playwright
+  name: Invisible Playwright MCP
+  author: oss-invisible
+  type: community
+  category: stealth
+  repo: oss-invisible/playwright_mcp
+  description: Playwright MCP variant focused on avoiding bot detection.
+  hosting: local
+  paid_api: false
+  capabilities: [anti-bot, browser-control, js-rendering, open-source]
+  install: see https://github.com/oss-invisible/playwright_mcp
+  added: 2026-11-26
+
+- id: camofox-mcp
+  name: camofox-mcp
+  author: redf0x1
+  type: community
+  category: stealth
+  repo: redf0x1/camofox-mcp
+  description: Anti-detection browsing through Camoufox, a Firefox fork that spoofs browser fingerprints.
+  hosting: local
+  paid_api: false
+  capabilities: [anti-bot, browser-control, js-rendering, open-source]
+  install: npx -y camofox-mcp
+  added: 2026-11-26
+
+- id: camoufox-mcp-server
+  name: camoufox-mcp-server
+  author: whit3rabbit
+  type: community
+  category: stealth
+  repo: whit3rabbit/camoufox-mcp
+  description: Browser automation on Camoufox with its anti-detection features.
+  hosting: local
+  paid_api: false
+  capabilities: [anti-bot, browser-control, js-rendering, open-source]
+  install: npx -y camoufox-mcp-server
+  added: 2026-11-26
+
+# --------------------------------------------------------------------------
+# Search & content extraction
+# --------------------------------------------------------------------------
+
+- id: tavily-mcp
+  name: Tavily MCP
+  vendor: tavily
+  type: official-vendor
+  category: search-extraction
+  repo: tavily-ai/tavily-mcp
+  description: Web search, URL extraction, site mapping and crawling through the Tavily API.
+  hosting: both
+  paid_api: true
+  free_tier: 1,000 credits/month
+  capabilities: [search, crawling, markdown-output]
+  install: npx -y tavily-mcp
+  added: 2026-11-26
+
+- id: exa-mcp
+  name: Exa MCP
+  vendor: exa
+  type: official-vendor
+  category: search-extraction
+  repo: exa-labs/exa-mcp-server
+  description: Neural web search and page-content retrieval through the Exa API.
+  hosting: both
+  paid_api: true
+  free_tier: $10 API credits
+  capabilities: [search, markdown-output]
+  install: npx -y exa-mcp-server
+  added: 2026-11-26
+
+- id: jina-mcp
+  name: Jina AI MCP
+  vendor: jina
+  type: official-vendor
+  category: search-extraction
+  url: https://mcp.jina.ai
+  description: Read URLs and PDFs as markdown, web and academic search, screenshots and reranking.
+  hosting: hosted
+  endpoint: https://mcp.jina.ai/v1
+  paid_api: false
+  free_tier: Works without a key (rate-limited); free API key available
+  capabilities: [search, markdown-output, screenshots]
+  install: "Remote: https://mcp.jina.ai/v1"
+  added: 2026-11-26
+
+- id: agentql-mcp
+  name: AgentQL MCP
+  vendor: agentql
+  type: official-vendor
+  category: search-extraction
+  repo: tinyfish-io/agentql-mcp
+  description: Extract structured data from web pages with AgentQL queries.
+  hosting: local
+  paid_api: true
+  capabilities: [structured-extraction, js-rendering]
+  install: npx -y agentql-mcp
+  added: 2026-11-26
+
+- id: mcp-fetch
+  name: Fetch (reference server)
+  vendor: mcp-project
+  type: official-tool
+  category: search-extraction
+  repo: modelcontextprotocol/servers
+  catalog: true
+  url: https://github.com/modelcontextprotocol/servers/tree/main/src/fetch
+  description: The MCP project's reference server for fetching a URL and converting it to markdown. No JavaScript rendering.
+  hosting: local
+  paid_api: false
+  capabilities: [markdown-output, open-source]
+  install: uvx mcp-server-fetch
+  added: 2026-11-26
+
+- id: zcaceres-fetch
+  name: fetch-mcp
+  author: zcaceres
+  type: community
+  category: search-extraction
+  repo: zcaceres/fetch-mcp
+  description: Fetch web content as HTML, JSON, plain text or markdown.
+  hosting: local
+  paid_api: false
+  capabilities: [markdown-output, open-source]
+  install: npx -y mcp-fetch-server
+  added: 2026-11-26
+
+- id: spider-mcp
+  name: Spider Cloud MCP
+  author: willbohn
+  type: community
+  category: search-extraction
+  repo: willbohn/spider-mcp
+  description: Scrape, crawl, search, extract links and take screenshots through the Spider Cloud API.
+  hosting: local
+  paid_api: true
+  capabilities: [anti-bot, js-rendering, crawling, search, screenshots]
+  install: npx @willbohn/spider-mcp
+  added: 2026-11-26
+
+# --------------------------------------------------------------------------
+# Self-hosted crawlers
+# --------------------------------------------------------------------------
+
+- id: crawl4ai-mcp
+  name: Crawl4AI (built-in MCP)
+  vendor: crawl4ai
+  type: official-tool
+  category: self-hosted
+  repo: unclecode/crawl4ai
+  catalog: true
+  url: https://docs.crawl4ai.com
+  description: Crawl4AI's Docker server exposes an MCP endpoint for crawling, scraping, screenshots, PDFs and extraction.
+  hosting: both
+  paid_api: false
+  capabilities: [crawling, js-rendering, structured-extraction, markdown-output, screenshots, open-source]
+  install: "docker run -p 11235:11235 unclecode/crawl4ai → http://localhost:11235/mcp/sse"
+  added: 2026-11-26
+
+- id: walksoda-crawl-mcp
+  name: crawl-mcp
+  author: walksoda
+  type: community
+  category: self-hosted
+  repo: walksoda/crawl-mcp
+  description: Unofficial Crawl4AI MCP server for crawling, content extraction and AI analysis.
+  hosting: local
+  paid_api: false
+  capabilities: [crawling, js-rendering, markdown-output, open-source]
+  install: uvx --from git+https://github.com/walksoda/crawl-mcp crawl-mcp
+  added: 2026-11-26
+
+- id: coleam00-crawl4ai-rag
+  name: mcp-crawl4ai-rag
+  author: coleam00
+  type: community
+  category: self-hosted
+  repo: coleam00/mcp-crawl4ai-rag
+  description: Crawl sites with Crawl4AI and store them in a vector database for RAG.
+  hosting: local
+  paid_api: false
+  capabilities: [crawling, markdown-output, open-source]
+  install: see https://github.com/coleam00/mcp-crawl4ai-rag
+  added: 2026-11-26
+
+- id: wyattowalsh-crawl4ai
+  name: crawl4ai-mcp
+  author: wyattowalsh
+  type: community
+  category: self-hosted
+  repo: wyattowalsh/crawl4ai-mcp
+  description: Crawl4AI-powered crawling MCP server, packaged with Playwright browsers in Docker.
+  hosting: local
+  paid_api: false
+  capabilities: [crawling, js-rendering, open-source]
+  install: pip install mcp-crawl4ai
+  added: 2026-11-26

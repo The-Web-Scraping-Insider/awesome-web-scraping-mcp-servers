@@ -1,0 +1,11 @@
+# Capability tags used in servers.yaml. `short` is shown in the README matrix.
+- {id: anti-bot, short: Anti-bot, description: "Handles bot detection, CAPTCHAs or WAFs such as Cloudflare"}
+- {id: js-rendering, short: JS, description: "Renders JavaScript-heavy pages"}
+- {id: browser-control, short: Browser, description: "Drives an interactive browser session (clicks, forms, logins)"}
+- {id: crawling, short: Crawl, description: "Crawls multiple pages or whole sites"}
+- {id: structured-extraction, short: JSON, description: "Returns structured data, not just page text"}
+- {id: search, short: Search, description: "Web or SERP search"}
+- {id: proxies, short: Proxies, description: "Routes requests through managed proxies"}
+- {id: markdown-output, short: Markdown, description: "Returns LLM-ready markdown"}
+- {id: screenshots, short: Screenshots, description: "Captures page screenshots"}
+- {id: open-source, short: OSS, description: "Free and open source; no paid account required"}
