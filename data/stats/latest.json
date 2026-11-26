@@ -1,0 +1,25 @@
+{
+  "updated": "2026-11-26",
+  "source_note": "Seed snapshot compiled by hand from GitHub, Bright Data's and Geekflare's MCP comparisons and MCP directories on 2026-11-26. Overwritten by scripts/fetch_stats.py on every scheduled run.",
+  "repos": {
+    "brightdata/brightdata-mcp": {"stars": 2700},
+    "firecrawl/firecrawl-mcp-server": {"stars": 7800},
+    "apify/apify-mcp-server": {"stars": 16500},
+    "D4Vinci/Scrapling": {"stars": 103500},
+    "browserbase/mcp-server-browserbase": {"stars": 3400, "archived": true},
+    "microsoft/playwright-mcp": {"stars": 39700},
+    "oss-invisible/playwright_mcp": {"stars": 865},
+    "angiejones/mcp-selenium": {"stars": 431},
+    "ChromeDevTools/chrome-devtools-mcp": {"stars": 57300},
+    "zcaceres/fetch-mcp": {"stars": 836},
+    "tavily-ai/tavily-mcp": {"stars": 2500},
+    "exa-labs/exa-mcp-server": {"stars": 5200},
+    "hyperbrowserai/mcp": {"stars": 791},
+    "browsermcp/mcp": {"stars": 7315},
+    "executeautomation/mcp-playwright": {"stars": 5681},
+    "Skyvern-AI/skyvern": {"stars": 22090},
+    "olostep/olostep-mcp-server": {"stars": 25},
+    "tinyfish-io/agentql-mcp": {"stars": 172},
+    "steel-dev/steel-mcp-server": {"stars": 43}
+  }
+}
