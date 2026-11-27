@@ -7,9 +7,9 @@ Reference servers · [https://modelcontextprotocol.io](https://modelcontextproto
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Fetch (reference server)](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) | Search & Content Extraction | 🏠 Local | – | 0.0 |
+| [Fetch (reference server)](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) | Search & Content Extraction | 🏠 Local | 92.3K | 92.7 |
 
-- [**Fetch (reference server)**](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) - The MCP project's reference server for fetching a URL and converting it to markdown. No JavaScript rendering.<br><sub>🏠 Local · 🆓 Free · `Markdown`</sub>
+- [**Fetch (reference server)**](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) - The MCP project's reference server for fetching a URL and converting it to markdown. No JavaScript rendering.<br><sub>⭐ 92.3K† · 🏠 Local · 🆓 Free · `Markdown`</sub>
 
 <details><summary>Install / connect</summary>
 

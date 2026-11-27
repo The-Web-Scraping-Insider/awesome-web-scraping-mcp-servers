@@ -7,9 +7,9 @@ Proxy aggregator & scraping tools · [https://scrapeops.io](https://scrapeops.io
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [ScrapeOps MCP](https://github.com/ScrapeOps/scrapeops-mcp-server) | Scraping APIs & Unblockers | 🏠 Local | – | 0.0 |
+| [ScrapeOps MCP](https://github.com/ScrapeOps/scrapeops-mcp-server) | Scraping APIs & Unblockers | 🏠 Local | 0 | 12.8 |
 
-- [**ScrapeOps MCP**](https://github.com/ScrapeOps/scrapeops-mcp-server) - MCP server for the ScrapeOps proxy aggregator and scraping APIs.<br><sub>🏠 Local · 🔑 API key · `Anti-bot` · `Proxies` · `JS`</sub>
+- [**ScrapeOps MCP**](https://github.com/ScrapeOps/scrapeops-mcp-server) - MCP server for the ScrapeOps proxy aggregator and scraping APIs.<br><sub>⭐ 0 · 🏠 Local · 🔑 API key · `Anti-bot` · `Proxies` · `JS`</sub>
 
 <details><summary>Install / connect</summary>
 

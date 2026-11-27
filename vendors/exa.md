@@ -7,9 +7,9 @@ Search API · [https://exa.ai](https://exa.ai)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Exa MCP](https://github.com/exa-labs/exa-mcp-server) | Search & Content Extraction | ☁️ Hosted · 🏠 Local | 5.2K | 66.4 |
+| [Exa MCP](https://github.com/exa-labs/exa-mcp-server) | Search & Content Extraction | ☁️ Hosted · 🏠 Local | 5.3K | 80.3 |
 
-- [**Exa MCP**](https://github.com/exa-labs/exa-mcp-server) - Neural web search and page-content retrieval through the Exa API.<br><sub>⭐ 5.2K · ☁️ Hosted · 🏠 Local · 🔑 Free tier: $10 API credits · `Search` · `Markdown`</sub>
+- [**Exa MCP**](https://github.com/exa-labs/exa-mcp-server) - Neural web search and page-content retrieval through the Exa API.<br><sub>⭐ 5.3K · ☁️ Hosted · 🏠 Local · 🔑 Free tier: $10 API credits · `Search` · `Markdown`</sub>
 
 <details><summary>Install / connect</summary>
 

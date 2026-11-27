@@ -7,9 +7,9 @@ AI scraping API · [https://scrapegraphai.com](https://scrapegraphai.com)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [ScrapeGraph MCP](https://github.com/ScrapeGraphAI/scrapegraph-mcp) | Scraping APIs & Unblockers | ☁️ Hosted · 🏠 Local | – | 0.0 |
+| [ScrapeGraph MCP](https://github.com/ScrapeGraphAI/scrapegraph-mcp) | Scraping APIs & Unblockers | ☁️ Hosted · 🏠 Local | 123 | 37.3 |
 
-- [**ScrapeGraph MCP**](https://github.com/ScrapeGraphAI/scrapegraph-mcp) - AI-powered extraction with natural-language prompts, markdown conversion, search scraping, smart crawling and agentic multi-step scraping.<br><sub>☁️ Hosted · 🏠 Local · 🔑 API key · `JS` · `Crawl` · `Search` · `JSON` · `Markdown`</sub>
+- [**ScrapeGraph MCP**](https://github.com/ScrapeGraphAI/scrapegraph-mcp) - AI-powered extraction with natural-language prompts, markdown conversion, search scraping, smart crawling and agentic multi-step scraping.<br><sub>⭐ 123 · ☁️ Hosted · 🏠 Local · 🔑 API key · `JS` · `Crawl` · `Search` · `JSON` · `Markdown`</sub>
 
 <details><summary>Install / connect</summary>
 

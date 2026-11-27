@@ -7,7 +7,7 @@ Cloud browsers · [https://www.browserbase.com](https://www.browserbase.com)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Browserbase MCP](https://github.com/browserbase/mcp-server-browserbase) | Cloud Browsers | ☁️ Hosted · 🏠 Local | 3.4K | 31.5 |
+| [Browserbase MCP](https://github.com/browserbase/mcp-server-browserbase) | Cloud Browsers | ☁️ Hosted · 🏠 Local | 3.4K | 31.4 |
 
 - [**Browserbase MCP**](https://github.com/browserbase/mcp-server-browserbase) - Cloud browsers driven by natural-language actions through Stagehand, with sessions, screenshots and parallel browsers.<br><sub>⭐ 3.4K · 📦 Archived · ☁️ Hosted · 🏠 Local · 🔑 Free tier: 1 browser hour/month · `Browser` · `JS` · `Anti-bot` · `Screenshots`</sub>
 

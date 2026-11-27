@@ -7,9 +7,9 @@ Let the agent drive a browser on your own machine with Playwright, Selenium or C
 
 ## Official
 
-- [**Chrome DevTools MCP**](https://github.com/ChromeDevTools/chrome-devtools-mcp) by [Chrome DevTools (Google)](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Control and inspect a live Chrome browser, including network requests, console and performance traces.<br><sub>⭐ 57.3K · 🏠 Local · 🆓 Free · `Browser` · `JS` · `Screenshots`</sub>
-- [**Playwright MCP**](https://github.com/microsoft/playwright-mcp) by [Microsoft](https://playwright.dev) - Drive Chrome, Firefox or WebKit through accessibility snapshots, with 70+ tools for navigation, forms, screenshots and tracing.<br><sub>⭐ 39.7K · 🏠 Local · 🆓 Free · `Browser` · `JS` · `Screenshots`</sub>
-- [**Browser MCP**](https://github.com/browsermcp/mcp) by [Browser MCP](https://browsermcp.io) - Automate your own local Chrome, including its logged-in sessions, through a browser extension.<br><sub>⭐ 7.3K · 🏠 Local · 🆓 Free · `Browser` · `JS`</sub>
+- [**Chrome DevTools MCP**](https://github.com/ChromeDevTools/chrome-devtools-mcp) by [Chrome DevTools (Google)](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Control and inspect a live Chrome browser, including network requests, console and performance traces.<br><sub>⭐ 59.6K · 🏠 Local · 🆓 Free · `Browser` · `JS` · `Screenshots`</sub>
+- [**Playwright MCP**](https://github.com/microsoft/playwright-mcp) by [Microsoft](https://playwright.dev) - Drive Chrome, Firefox or WebKit through accessibility snapshots, with 70+ tools for navigation, forms, screenshots and tracing.<br><sub>⭐ 40.2K · 🏠 Local · 🆓 Free · `Browser` · `JS` · `Screenshots`</sub>
+- [**Browser MCP**](https://github.com/browsermcp/mcp) by [Browser MCP](https://browsermcp.io) - Automate your own local Chrome, including its logged-in sessions, through a browser extension.<br><sub>⭐ 7.4K · 🏠 Local · 🆓 Free · `Browser` · `JS`</sub>
 
 <details><summary>Install / connect</summary>
 
@@ -27,21 +27,21 @@ npx @browsermcp/mcp@latest
 ## Community
 
 - [**Playwright MCP Server**](https://github.com/executeautomation/mcp-playwright) by [@executeautomation](https://github.com/executeautomation) - Playwright browser and API automation for Claude Desktop, Cursor, Cline and other clients.<br><sub>⭐ 5.7K · 🏠 Local · 🆓 Free · `Browser` · `JS` · `Screenshots`</sub>
+- [**browser-use-mcp-server**](https://github.com/kontext-dev/browser-use-mcp-server) by [@kontext-dev](https://github.com/kontext-dev) - Run browser-use as an MCP server over SSE or stdio, with Docker and VNC support.<br><sub>⭐ 849 · 🏠 Local · 🆓 Free · `Browser` · `JS`</sub>
+- [**mcp-server-browser-use**](https://github.com/Saik0s/mcp-browser-use) by [@Saik0s](https://github.com/Saik0s) - Wraps the browser-use agent so an MCP client can hand it natural-language browsing and research tasks.<br><sub>⭐ 971 · 🏠 Local · 🆓 Free · `Browser` · `JS` · `JSON`</sub>
 - [**Selenium MCP**](https://github.com/angiejones/mcp-selenium) by [@angiejones](https://github.com/angiejones) - Control browsers through Selenium WebDriver.<br><sub>⭐ 431 · 🏠 Local · 🆓 Free · `Browser` · `JS`</sub>
-- [**mcp-server-browser-use**](https://github.com/Saik0s/mcp-browser-use) by [@Saik0s](https://github.com/Saik0s) - Wraps the browser-use agent so an MCP client can hand it natural-language browsing and research tasks.<br><sub>🏠 Local · 🆓 Free · `Browser` · `JS` · `JSON`</sub>
-- [**browser-use-mcp-server**](https://github.com/kontext-dev/browser-use-mcp-server) by [@kontext-dev](https://github.com/kontext-dev) - Run browser-use as an MCP server over SSE or stdio, with Docker and VNC support.<br><sub>🏠 Local · 🆓 Free · `Browser` · `JS`</sub>
 
 <details><summary>Install / connect</summary>
 
 ```bash
 # Playwright MCP Server
 npx -y @executeautomation/playwright-mcp-server
-# Selenium MCP
-npx -y @angiejones/mcp-selenium
-# mcp-server-browser-use
-uvx mcp-server-browser-use@latest
 # browser-use-mcp-server
 see https://github.com/kontext-dev/browser-use-mcp-server
+# mcp-server-browser-use
+uvx mcp-server-browser-use@latest
+# Selenium MCP
+npx -y @angiejones/mcp-selenium
 ```
 
 </details>

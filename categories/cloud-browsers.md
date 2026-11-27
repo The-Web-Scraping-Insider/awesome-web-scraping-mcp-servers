@@ -7,17 +7,19 @@ Remote browsers the agent can drive, with sessions, proxies and stealth handled 
 
 ## Official
 
-- [**Skyvern MCP**](https://github.com/Skyvern-AI/skyvern) by [Skyvern](https://www.skyvern.com) - Vision-plus-DOM browser agent for multi-step jobs like logging in, filling forms and downloading files; self-hosted or Skyvern Cloud.<br><sub>⭐ 22.1K† · ☁️ Hosted · 🏠 Local · 🆓 Free · `Browser` · `JS` · `JSON`</sub>
-- [**Hyperbrowser MCP**](https://github.com/hyperbrowserai/mcp) by [Hyperbrowser](https://www.hyperbrowser.ai) - Scrape, extract structured data and crawl pages using Hyperbrowser's cloud browsers.<br><sub>⭐ 791 · 🏠 Local · 🔑 API key · `Browser` · `JS` · `Crawl` · `JSON` · `Anti-bot`</sub>
+- [**Skyvern MCP**](https://github.com/Skyvern-AI/skyvern) by [Skyvern](https://www.skyvern.com) - Vision-plus-DOM browser agent for multi-step jobs like logging in, filling forms and downloading files; self-hosted or Skyvern Cloud.<br><sub>⭐ 23.6K† · ☁️ Hosted · 🏠 Local · 🆓 Free · `Browser` · `JS` · `JSON`</sub>
+- [**Notte MCP**](https://github.com/nottelabs/notte) by [Notte](https://www.notte.cc) - Cloud browser sessions with observe, scrape and act tools, plus a web agent that completes tasks on any site.<br><sub>⭐ 2.1K† · 🏠 Local · 🔑 API key · `Browser` · `JS` · `JSON` · `Screenshots`</sub>
+- [**Hyperbrowser MCP**](https://github.com/hyperbrowserai/mcp) by [Hyperbrowser](https://www.hyperbrowser.ai) - Scrape, extract structured data and crawl pages using Hyperbrowser's cloud browsers.<br><sub>⭐ 795 · 🏠 Local · 🔑 API key · `Browser` · `JS` · `Crawl` · `JSON` · `Anti-bot`</sub>
 - [**Browserbase MCP**](https://github.com/browserbase/mcp-server-browserbase) by [Browserbase](https://www.browserbase.com) - Cloud browsers driven by natural-language actions through Stagehand, with sessions, screenshots and parallel browsers.<br><sub>⭐ 3.4K · 📦 Archived · ☁️ Hosted · 🏠 Local · 🔑 Free tier: 1 browser hour/month · `Browser` · `JS` · `Anti-bot` · `Screenshots`</sub>
-- [**Steel MCP**](https://github.com/steel-dev/steel-mcp-server) by [Steel](https://steel.dev) - Navigate the web with Puppeteer-based tools on Steel cloud or self-hosted browsers.<br><sub>⭐ 43 · 🏠 Local · 🔑 API key · `Browser` · `JS`</sub>
-- [**Notte MCP**](https://github.com/nottelabs/notte) by [Notte](https://www.notte.cc) - Cloud browser sessions with observe, scrape and act tools, plus a web agent that completes tasks on any site.<br><sub>🏠 Local · 🔑 API key · `Browser` · `JS` · `JSON` · `Screenshots`</sub>
+- [**Steel MCP**](https://github.com/steel-dev/steel-mcp-server) by [Steel](https://steel.dev) - Navigate the web with Puppeteer-based tools on Steel cloud or self-hosted browsers.<br><sub>⭐ 58 · 📦 Archived · 🏠 Local · 🔑 API key · `Browser` · `JS`</sub>
 
 <details><summary>Install / connect</summary>
 
 ```bash
 # Skyvern MCP
 pip install skyvern && skyvern init
+# Notte MCP
+pip install notte-mcp
 # Hyperbrowser MCP
 npx -y hyperbrowser-mcp
 # Browserbase MCP
@@ -25,8 +27,6 @@ npx -y hyperbrowser-mcp
 npx @browserbasehq/mcp
 # Steel MCP
 npx -y github:steel-dev/steel-mcp-server
-# Notte MCP
-pip install notte-mcp
 ```
 
 </details>

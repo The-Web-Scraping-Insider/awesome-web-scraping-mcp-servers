@@ -7,9 +7,9 @@ AI browser automation · [https://www.skyvern.com](https://www.skyvern.com)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Skyvern MCP](https://github.com/Skyvern-AI/skyvern) | Cloud Browsers | ☁️ Hosted · 🏠 Local | 22.1K | 66.9 |
+| [Skyvern MCP](https://github.com/Skyvern-AI/skyvern) | Cloud Browsers | ☁️ Hosted · 🏠 Local | 23.6K | 82.1 |
 
-- [**Skyvern MCP**](https://github.com/Skyvern-AI/skyvern) - Vision-plus-DOM browser agent for multi-step jobs like logging in, filling forms and downloading files; self-hosted or Skyvern Cloud.<br><sub>⭐ 22.1K† · ☁️ Hosted · 🏠 Local · 🆓 Free · `Browser` · `JS` · `JSON`</sub>
+- [**Skyvern MCP**](https://github.com/Skyvern-AI/skyvern) - Vision-plus-DOM browser agent for multi-step jobs like logging in, filling forms and downloading files; self-hosted or Skyvern Cloud.<br><sub>⭐ 23.6K† · ☁️ Hosted · 🏠 Local · 🆓 Free · `Browser` · `JS` · `JSON`</sub>
 
 <details><summary>Install / connect</summary>
 

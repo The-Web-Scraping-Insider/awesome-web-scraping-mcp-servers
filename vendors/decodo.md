@@ -7,9 +7,9 @@ Proxies & scraping APIs · [https://decodo.com](https://decodo.com)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Decodo MCP](https://github.com/Decodo/mcp-web-scraper) | Scraping APIs & Unblockers | 🏠 Local | – | 0.0 |
+| [Decodo MCP](https://github.com/Decodo/mcp-web-scraper) | Scraping APIs & Unblockers | 🏠 Local | 43 | 44.3 |
 
-- [**Decodo MCP**](https://github.com/Decodo/mcp-web-scraper) - Connect agents to Decodo's Web Scraping API for live web data, with proxies and JS rendering.<br><sub>🏠 Local · 🔑 Free tier: Free trial · `Anti-bot` · `JS` · `Proxies`</sub>
+- [**Decodo MCP**](https://github.com/Decodo/mcp-web-scraper) - Connect agents to Decodo's Web Scraping API for live web data, with proxies and JS rendering.<br><sub>⭐ 43 · 🏠 Local · 🔑 Free tier: Free trial · `Anti-bot` · `JS` · `Proxies`</sub>
 
 <details><summary>Install / connect</summary>
 

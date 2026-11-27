@@ -5,7 +5,7 @@
 
 **A curated, auto-ranked list of [MCP](https://modelcontextprotocol.io) servers that give Claude, Cursor, ChatGPT and other AI agents live access to web data: scraping, crawling, browsers and search.**
 
-![Servers](https://img.shields.io/badge/servers-40-2563eb) ![Official](https://img.shields.io/badge/official-28-16a34a) ![Free](https://img.shields.io/badge/free%20%2F%20open%20source-19-f59e0b) ![Hosted](https://img.shields.io/badge/hosted%20endpoints-17-8b5cf6) ![Updated](https://img.shields.io/badge/updated-2026--11--26-6b7280) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers/blob/main/CONTRIBUTING.md)
+![Servers](https://img.shields.io/badge/servers-40-2563eb) ![Official](https://img.shields.io/badge/official-28-16a34a) ![Free](https://img.shields.io/badge/free%20%2F%20open%20source-19-f59e0b) ![Hosted](https://img.shields.io/badge/hosted%20endpoints-17-8b5cf6) ![Updated](https://img.shields.io/badge/updated-2026--11--27-6b7280) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers/blob/main/CONTRIBUTING.md)
 
 <sub>Stars refreshed daily · Curated by <a href="https://www.reddit.com/r/WebScrapingInsider/">The Web Scraping Insider</a> · Looking for agent skills instead? See <a href="https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-skills">Awesome Web Scraping Skills</a></sub>
 
@@ -47,46 +47,46 @@ Ranked by score (GitHub stars and recent activity; see [how the ranking works](#
 
 | # | Server | Publisher | Type | Hosting | ⭐ Stars | Score |
 |---:|---|---|---|---|---:|---:|
-| 1 | [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools (Google) | Open source | 🏠 Local | 57.3K | 85.0 |
-| 2 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Microsoft | Open source | 🏠 Local | 39.7K | 82.2 |
-| 3 | [Scrapling MCP](https://github.com/D4Vinci/Scrapling) | Scrapling | Open source | 🏠 Local | 103.5K† | 78.8 |
-| 4 | [Apify MCP](https://github.com/apify/apify-mcp-server) | Apify | Vendor | ☁️ Hosted · 🏠 Local | 16.5K | 75.3 |
-| 5 | [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | Firecrawl | Vendor | ☁️ Hosted · 🏠 Local | 7.8K | 69.5 |
-| 6 | [Browser MCP](https://github.com/browsermcp/mcp) | Browser MCP | Open source | 🏠 Local | 7.3K | 69.0 |
-| 7 | [Playwright MCP Server](https://github.com/executeautomation/mcp-playwright) | @executeautomation | Community | 🏠 Local | 5.7K | 67.1 |
-| 8 | [Skyvern MCP](https://github.com/Skyvern-AI/skyvern) | Skyvern | Vendor | ☁️ Hosted · 🏠 Local | 22.1K† | 66.9 |
-| 9 | [Exa MCP](https://github.com/exa-labs/exa-mcp-server) | Exa | Vendor | ☁️ Hosted · 🏠 Local | 5.2K | 66.4 |
-| 10 | [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | Bright Data | Vendor | ☁️ Hosted · 🏠 Local | 2.7K | 61.3 |
+| 1 | [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools (Google) | Open source | 🏠 Local | 59.6K | 100.0 |
+| 2 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Microsoft | Open source | 🏠 Local | 40.2K | 95.6 |
+| 3 | [Scrapling MCP](https://github.com/D4Vinci/Scrapling) | Scrapling | Open source | 🏠 Local | 106.2K† | 93.6 |
+| 4 | [Fetch (reference server)](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) | Model Context Protocol | Open source | 🏠 Local | 92.3K† | 92.7 |
+| 5 | [Crawl4AI (built-in MCP)](https://docs.crawl4ai.com) | Crawl4AI | Open source | ☁️ Hosted · 🏠 Local | 88K† | 91.6 |
+| 6 | [Apify MCP](https://github.com/apify/apify-mcp-server) | Apify | Vendor | ☁️ Hosted · 🏠 Local | 18.1K | 90.8 |
+| 7 | [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | Firecrawl | Vendor | ☁️ Hosted · 🏠 Local | 7.9K | 84.4 |
+| 8 | [Skyvern MCP](https://github.com/Skyvern-AI/skyvern) | Skyvern | Vendor | ☁️ Hosted · 🏠 Local | 23.6K† | 82.1 |
+| 9 | [Browser MCP](https://github.com/browsermcp/mcp) | Browser MCP | Open source | 🏠 Local | 7.4K | 81.6 |
+| 10 | [Exa MCP](https://github.com/exa-labs/exa-mcp-server) | Exa | Vendor | ☁️ Hosted · 🏠 Local | 5.3K | 80.3 |
 
 ### 🏢 From vendors
 
 | # | Server | Publisher | Hosting | ⭐ Stars | Score |
 |---:|---|---|---|---:|---:|
-| 1 | [Apify MCP](https://github.com/apify/apify-mcp-server) | Apify | ☁️ Hosted · 🏠 Local | 16.5K | 75.3 |
-| 2 | [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | Firecrawl | ☁️ Hosted · 🏠 Local | 7.8K | 69.5 |
-| 3 | [Skyvern MCP](https://github.com/Skyvern-AI/skyvern) | Skyvern | ☁️ Hosted · 🏠 Local | 22.1K† | 66.9 |
-| 4 | [Exa MCP](https://github.com/exa-labs/exa-mcp-server) | Exa | ☁️ Hosted · 🏠 Local | 5.2K | 66.4 |
-| 5 | [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | Bright Data | ☁️ Hosted · 🏠 Local | 2.7K | 61.3 |
-| 6 | [Tavily MCP](https://github.com/tavily-ai/tavily-mcp) | Tavily | ☁️ Hosted · 🏠 Local | 2.5K | 60.7 |
-| 7 | [Hyperbrowser MCP](https://github.com/hyperbrowserai/mcp) | Hyperbrowser | 🏠 Local | 791 | 51.8 |
-| 8 | [AgentQL MCP](https://github.com/tinyfish-io/agentql-mcp) | AgentQL (TinyFish) | 🏠 Local | 172 | 40.0 |
-| 9 | [Browserbase MCP](https://github.com/browserbase/mcp-server-browserbase) | Browserbase | ☁️ Hosted · 🏠 Local | 3.4K | 31.5 |
-| 10 | [Steel MCP](https://github.com/steel-dev/steel-mcp-server) | Steel | 🏠 Local | 43 | 29.4 |
+| 1 | [Apify MCP](https://github.com/apify/apify-mcp-server) | Apify | ☁️ Hosted · 🏠 Local | 18.1K | 90.8 |
+| 2 | [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | Firecrawl | ☁️ Hosted · 🏠 Local | 7.9K | 84.4 |
+| 3 | [Skyvern MCP](https://github.com/Skyvern-AI/skyvern) | Skyvern | ☁️ Hosted · 🏠 Local | 23.6K† | 82.1 |
+| 4 | [Exa MCP](https://github.com/exa-labs/exa-mcp-server) | Exa | ☁️ Hosted · 🏠 Local | 5.3K | 80.3 |
+| 5 | [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | Bright Data | ☁️ Hosted · 🏠 Local | 2.7K | 76.0 |
+| 6 | [Tavily MCP](https://github.com/tavily-ai/tavily-mcp) | Tavily | ☁️ Hosted · 🏠 Local | 2.5K | 74.0 |
+| 7 | [Notte MCP](https://github.com/nottelabs/notte) | Notte | 🏠 Local | 2.1K† | 63.4 |
+| 8 | [AgentQL MCP](https://github.com/tinyfish-io/agentql-mcp) | AgentQL (TinyFish) | 🏠 Local | 184 | 54.4 |
+| 9 | [Hyperbrowser MCP](https://github.com/hyperbrowserai/mcp) | Hyperbrowser | 🏠 Local | 795 | 51.6 |
+| 10 | [Oxylabs MCP](https://github.com/oxylabs/oxylabs-mcp) | Oxylabs | ☁️ Hosted · 🏠 Local | 105 | 51.1 |
 
 ### 👥 Open source & community
 
 | # | Server | Publisher | Type | Hosting | ⭐ Stars | Score |
 |---:|---|---|---|---|---:|---:|
-| 1 | [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools (Google) | Open source | 🏠 Local | 57.3K | 85.0 |
-| 2 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Microsoft | Open source | 🏠 Local | 39.7K | 82.2 |
-| 3 | [Scrapling MCP](https://github.com/D4Vinci/Scrapling) | Scrapling | Open source | 🏠 Local | 103.5K† | 78.8 |
-| 4 | [Browser MCP](https://github.com/browsermcp/mcp) | Browser MCP | Open source | 🏠 Local | 7.3K | 69.0 |
-| 5 | [Playwright MCP Server](https://github.com/executeautomation/mcp-playwright) | @executeautomation | Community | 🏠 Local | 5.7K | 67.1 |
-| 6 | [Invisible Playwright MCP](https://github.com/oss-invisible/playwright_mcp) | @oss-invisible | Community | 🏠 Local | 865 | 52.5 |
-| 7 | [fetch-mcp](https://github.com/zcaceres/fetch-mcp) | @zcaceres | Community | 🏠 Local | 836 | 52.2 |
-| 8 | [Selenium MCP](https://github.com/angiejones/mcp-selenium) | @angiejones | Community | 🏠 Local | 431 | 47.1 |
-| 9 | [mcp-server-browser-use](https://github.com/Saik0s/mcp-browser-use) | @Saik0s | Community | 🏠 Local | – | 0.0 |
-| 10 | [browser-use-mcp-server](https://github.com/kontext-dev/browser-use-mcp-server) | @kontext-dev | Community | 🏠 Local | – | 0.0 |
+| 1 | [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools (Google) | Open source | 🏠 Local | 59.6K | 100.0 |
+| 2 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Microsoft | Open source | 🏠 Local | 40.2K | 95.6 |
+| 3 | [Scrapling MCP](https://github.com/D4Vinci/Scrapling) | Scrapling | Open source | 🏠 Local | 106.2K† | 93.6 |
+| 4 | [Fetch (reference server)](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) | Model Context Protocol | Open source | 🏠 Local | 92.3K† | 92.7 |
+| 5 | [Crawl4AI (built-in MCP)](https://docs.crawl4ai.com) | Crawl4AI | Open source | ☁️ Hosted · 🏠 Local | 88K† | 91.6 |
+| 6 | [Browser MCP](https://github.com/browsermcp/mcp) | Browser MCP | Open source | 🏠 Local | 7.4K | 81.6 |
+| 7 | [fetch-mcp](https://github.com/zcaceres/fetch-mcp) | @zcaceres | Community | 🏠 Local | 835 | 67.0 |
+| 8 | [Playwright MCP Server](https://github.com/executeautomation/mcp-playwright) | @executeautomation | Community | 🏠 Local | 5.7K | 66.8 |
+| 9 | [Invisible Playwright MCP](https://github.com/oss-invisible/playwright_mcp) | @oss-invisible | Community | 🏠 Local | 815 | 66.5 |
+| 10 | [browser-use-mcp-server](https://github.com/kontext-dev/browser-use-mcp-server) | @kontext-dev | Community | 🏠 Local | 849 | 65.5 |
 
 <sub>† Stars belong to a bigger project that includes the MCP server, so they count for less in the score.</sub>
 
@@ -109,18 +109,18 @@ Published by the company or project behind the tool, grouped by category and ord
 
 ### 🛡️ Scraping APIs & Unblockers
 
-- [**Firecrawl MCP**](https://github.com/firecrawl/firecrawl-mcp-server) by [Firecrawl](https://firecrawl.dev) - Search, scrape, map, crawl and extract structured data, with screenshots and page interaction; works with Firecrawl cloud or self-hosted.<br><sub>⭐ 7.8K · ☁️ Hosted · 🏠 Local · 🔑 Free tier: 1,000 credits/month · `JS` · `Crawl` · `Search` · `JSON` · `Markdown` · `Screenshots`</sub>
+- [**Firecrawl MCP**](https://github.com/firecrawl/firecrawl-mcp-server) by [Firecrawl](https://firecrawl.dev) - Search, scrape, map, crawl and extract structured data, with screenshots and page interaction; works with Firecrawl cloud or self-hosted.<br><sub>⭐ 7.9K · ☁️ Hosted · 🏠 Local · 🔑 Free tier: 1,000 credits/month · `JS` · `Crawl` · `Search` · `JSON` · `Markdown` · `Screenshots`</sub>
 - [**Bright Data MCP**](https://github.com/brightdata/brightdata-mcp) by [Bright Data](https://brightdata.com) - Search engines, markdown scraping, structured data for major platforms and a scraping browser, with bot-detection bypass and CAPTCHA solving.<br><sub>⭐ 2.7K · ☁️ Hosted · 🏠 Local · 🔑 Free tier: 5,000 requests/month · `Anti-bot` · `JS` · `Browser` · `Search` · `JSON` · `Proxies` · `Markdown`</sub>
+- [**Oxylabs MCP**](https://github.com/oxylabs/oxylabs-mcp) by [Oxylabs](https://oxylabs.io) - Universal, Google and Amazon scrapers through the Web Scraper API, plus AI Studio tools for AI scraping, crawling, search and mapping.<br><sub>⭐ 105 · ☁️ Hosted · 🏠 Local · 🔑 Free tier: 1,000 AI Studio credits; one-week Web Scraper API trial · `Anti-bot` · `JS` · `Proxies` · `Search` · `Crawl` · `JSON` · `Markdown`</sub>
+- [**Decodo MCP**](https://github.com/Decodo/mcp-web-scraper) by [Decodo](https://decodo.com) - Connect agents to Decodo's Web Scraping API for live web data, with proxies and JS rendering.<br><sub>⭐ 43 · 🏠 Local · 🔑 Free tier: Free trial · `Anti-bot` · `JS` · `Proxies`</sub>
 - [**Olostep MCP**](https://github.com/olostep/olostep-mcp-server) by [Olostep](https://www.olostep.com) - Scrape, crawl, batch-extract and search the web through the Olostep API.<br><sub>⭐ 25 · ☁️ Hosted · 🏠 Local · 🔑 Free tier: 500 requests/month · `JS` · `Crawl` · `Search` · `Markdown`</sub>
-- [**Oxylabs MCP**](https://github.com/oxylabs/oxylabs-mcp) by [Oxylabs](https://oxylabs.io) - Universal, Google and Amazon scrapers through the Web Scraper API, plus AI Studio tools for AI scraping, crawling, search and mapping.<br><sub>☁️ Hosted · 🏠 Local · 🔑 Free tier: 1,000 AI Studio credits; one-week Web Scraper API trial · `Anti-bot` · `JS` · `Proxies` · `Search` · `Crawl` · `JSON` · `Markdown`</sub>
-- [**ZenRows MCP**](https://github.com/ZenRows/zenrows-mcp) by [ZenRows](https://www.zenrows.com) - Fetch live web content from sites that block bots, through the ZenRows scraping API.<br><sub>☁️ Hosted · 🏠 Local · 🔑 API key · `Anti-bot` · `JS` · `Proxies` · `Markdown`</sub>
-- [**Decodo MCP**](https://github.com/Decodo/mcp-web-scraper) by [Decodo](https://decodo.com) - Connect agents to Decodo's Web Scraping API for live web data, with proxies and JS rendering.<br><sub>🏠 Local · 🔑 Free tier: Free trial · `Anti-bot` · `JS` · `Proxies`</sub>
+- [**ZenRows MCP**](https://github.com/ZenRows/zenrows-mcp) by [ZenRows](https://www.zenrows.com) - Fetch live web content from sites that block bots, through the ZenRows scraping API.<br><sub>⭐ 22 · ☁️ Hosted · 🏠 Local · 🔑 API key · `Anti-bot` · `JS` · `Proxies` · `Markdown`</sub>
+- [**ScrapeGraph MCP**](https://github.com/ScrapeGraphAI/scrapegraph-mcp) by [ScrapeGraphAI](https://scrapegraphai.com) - AI-powered extraction with natural-language prompts, markdown conversion, search scraping, smart crawling and agentic multi-step scraping.<br><sub>⭐ 123 · ☁️ Hosted · 🏠 Local · 🔑 API key · `JS` · `Crawl` · `Search` · `JSON` · `Markdown`</sub>
+- [**ScrapeOps MCP**](https://github.com/ScrapeOps/scrapeops-mcp-server) by [ScrapeOps](https://scrapeops.io) - MCP server for the ScrapeOps proxy aggregator and scraping APIs.<br><sub>⭐ 0 · 🏠 Local · 🔑 API key · `Anti-bot` · `Proxies` · `JS`</sub>
 - [**ScraperAPI MCP**](https://www.scraperapi.com) by [ScraperAPI](https://www.scraperapi.com) - Scrape with JS rendering, geo-targeting and premium proxies, plus structured results for Google, Amazon, Walmart, eBay and Redfin.<br><sub>☁️ Hosted · 🏠 Local · 🔑 Free tier: 5,000 API credits · `Anti-bot` · `JS` · `Proxies` · `JSON` · `Search`</sub>
 - [**Scrapfly MCP**](https://scrapfly.io/docs/mcp/integrations) by [Scrapfly](https://scrapfly.io) - Page retrieval with anti-bot bypass, screenshots, AI extraction and a cloud browser over CDP.<br><sub>☁️ Hosted · 🔑 Free tier: 1,000 credits · `Anti-bot` · `JS` · `Browser` · `JSON` · `Screenshots`</sub>
 - [**ScrapingBee MCP**](https://www.scrapingbee.com) by [ScrapingBee](https://www.scrapingbee.com) - Page text and HTML, CSS/XPath extraction, screenshots, file downloads, web search and Amazon, Walmart and YouTube tools.<br><sub>☁️ Hosted · 🔑 Free tier: 1,000 credits · `Anti-bot` · `JS` · `Search` · `JSON` · `Screenshots`</sub>
-- [**ScrapeGraph MCP**](https://github.com/ScrapeGraphAI/scrapegraph-mcp) by [ScrapeGraphAI](https://scrapegraphai.com) - AI-powered extraction with natural-language prompts, markdown conversion, search scraping, smart crawling and agentic multi-step scraping.<br><sub>☁️ Hosted · 🏠 Local · 🔑 API key · `JS` · `Crawl` · `Search` · `JSON` · `Markdown`</sub>
 - [**Geekflare MCP**](https://geekflare.com/mcp/) by [Geekflare](https://geekflare.com/mcp/) - Scraping, search, metadata, screenshots and SEO, performance and security checks as 15 tools.<br><sub>☁️ Hosted · 🏠 Local · 🔑 Free tier: 500 credits · `JS` · `Search` · `Screenshots`</sub>
-- [**ScrapeOps MCP**](https://github.com/ScrapeOps/scrapeops-mcp-server) by [ScrapeOps](https://scrapeops.io) - MCP server for the ScrapeOps proxy aggregator and scraping APIs.<br><sub>🏠 Local · 🔑 API key · `Anti-bot` · `Proxies` · `JS`</sub>
 
 <details><summary>Install / connect</summary>
 
@@ -131,17 +131,21 @@ npx -y firecrawl-mcp
 # Bright Data MCP
 # remote endpoint: https://mcp.brightdata.com/mcp
 npx @brightdata/mcp
-# Olostep MCP
-# remote endpoint: https://mcp.olostep.com/mcp
-npx -y olostep-mcp
 # Oxylabs MCP
 # remote endpoint: https://mcp.oxylabs.io/mcp
 uvx oxylabs-mcp
+# Decodo MCP
+see https://github.com/Decodo/mcp-web-scraper
+# Olostep MCP
+# remote endpoint: https://mcp.olostep.com/mcp
+npx -y olostep-mcp
 # ZenRows MCP
 # remote endpoint: https://mcp.zenrows.com/mcp
 npx -y @zenrows/mcp
-# Decodo MCP
-see https://github.com/Decodo/mcp-web-scraper
+# ScrapeGraph MCP
+pip install scrapegraph-mcp
+# ScrapeOps MCP
+see https://github.com/ScrapeOps/scrapeops-mcp-server
 # ScraperAPI MCP
 # remote endpoint: https://mcp.scraperapi.com/mcp
 pip install scraperapi-mcp-server
@@ -151,19 +155,15 @@ Remote: https://mcp.scrapfly.io/mcp
 # ScrapingBee MCP
 # remote endpoint: https://mcp.scrapingbee.com/mcp
 Remote: https://mcp.scrapingbee.com/mcp
-# ScrapeGraph MCP
-pip install scrapegraph-mcp
 # Geekflare MCP
 npx -y @geekflare/mcp
-# ScrapeOps MCP
-see https://github.com/ScrapeOps/scrapeops-mcp-server
 ```
 
 </details>
 
 ### 📦 Marketplaces & Pre-built Scrapers
 
-- [**Apify MCP**](https://github.com/apify/apify-mcp-server) by [Apify](https://apify.com) - Search the Apify Store and run any of thousands of ready-made scrapers (Actors) for social media, maps, e-commerce and more.<br><sub>⭐ 16.5K · ☁️ Hosted · 🏠 Local · 🔑 Free tier: $5/month platform usage · `Anti-bot` · `JSON` · `Crawl` · `Search`</sub>
+- [**Apify MCP**](https://github.com/apify/apify-mcp-server) by [Apify](https://apify.com) - Search the Apify Store and run any of thousands of ready-made scrapers (Actors) for social media, maps, e-commerce and more.<br><sub>⭐ 18.1K · ☁️ Hosted · 🏠 Local · 🔑 Free tier: $5/month platform usage · `Anti-bot` · `JSON` · `Crawl` · `Search`</sub>
 
 <details><summary>Install / connect</summary>
 
@@ -177,17 +177,19 @@ npx -y @apify/actors-mcp-server
 
 ### ☁️ Cloud Browsers
 
-- [**Skyvern MCP**](https://github.com/Skyvern-AI/skyvern) by [Skyvern](https://www.skyvern.com) - Vision-plus-DOM browser agent for multi-step jobs like logging in, filling forms and downloading files; self-hosted or Skyvern Cloud.<br><sub>⭐ 22.1K† · ☁️ Hosted · 🏠 Local · 🆓 Free · `Browser` · `JS` · `JSON`</sub>
-- [**Hyperbrowser MCP**](https://github.com/hyperbrowserai/mcp) by [Hyperbrowser](https://www.hyperbrowser.ai) - Scrape, extract structured data and crawl pages using Hyperbrowser's cloud browsers.<br><sub>⭐ 791 · 🏠 Local · 🔑 API key · `Browser` · `JS` · `Crawl` · `JSON` · `Anti-bot`</sub>
+- [**Skyvern MCP**](https://github.com/Skyvern-AI/skyvern) by [Skyvern](https://www.skyvern.com) - Vision-plus-DOM browser agent for multi-step jobs like logging in, filling forms and downloading files; self-hosted or Skyvern Cloud.<br><sub>⭐ 23.6K† · ☁️ Hosted · 🏠 Local · 🆓 Free · `Browser` · `JS` · `JSON`</sub>
+- [**Notte MCP**](https://github.com/nottelabs/notte) by [Notte](https://www.notte.cc) - Cloud browser sessions with observe, scrape and act tools, plus a web agent that completes tasks on any site.<br><sub>⭐ 2.1K† · 🏠 Local · 🔑 API key · `Browser` · `JS` · `JSON` · `Screenshots`</sub>
+- [**Hyperbrowser MCP**](https://github.com/hyperbrowserai/mcp) by [Hyperbrowser](https://www.hyperbrowser.ai) - Scrape, extract structured data and crawl pages using Hyperbrowser's cloud browsers.<br><sub>⭐ 795 · 🏠 Local · 🔑 API key · `Browser` · `JS` · `Crawl` · `JSON` · `Anti-bot`</sub>
 - [**Browserbase MCP**](https://github.com/browserbase/mcp-server-browserbase) by [Browserbase](https://www.browserbase.com) - Cloud browsers driven by natural-language actions through Stagehand, with sessions, screenshots and parallel browsers.<br><sub>⭐ 3.4K · 📦 Archived · ☁️ Hosted · 🏠 Local · 🔑 Free tier: 1 browser hour/month · `Browser` · `JS` · `Anti-bot` · `Screenshots`</sub>
-- [**Steel MCP**](https://github.com/steel-dev/steel-mcp-server) by [Steel](https://steel.dev) - Navigate the web with Puppeteer-based tools on Steel cloud or self-hosted browsers.<br><sub>⭐ 43 · 🏠 Local · 🔑 API key · `Browser` · `JS`</sub>
-- [**Notte MCP**](https://github.com/nottelabs/notte) by [Notte](https://www.notte.cc) - Cloud browser sessions with observe, scrape and act tools, plus a web agent that completes tasks on any site.<br><sub>🏠 Local · 🔑 API key · `Browser` · `JS` · `JSON` · `Screenshots`</sub>
+- [**Steel MCP**](https://github.com/steel-dev/steel-mcp-server) by [Steel](https://steel.dev) - Navigate the web with Puppeteer-based tools on Steel cloud or self-hosted browsers.<br><sub>⭐ 58 · 📦 Archived · 🏠 Local · 🔑 API key · `Browser` · `JS`</sub>
 
 <details><summary>Install / connect</summary>
 
 ```bash
 # Skyvern MCP
 pip install skyvern && skyvern init
+# Notte MCP
+pip install notte-mcp
 # Hyperbrowser MCP
 npx -y hyperbrowser-mcp
 # Browserbase MCP
@@ -195,17 +197,15 @@ npx -y hyperbrowser-mcp
 npx @browserbasehq/mcp
 # Steel MCP
 npx -y github:steel-dev/steel-mcp-server
-# Notte MCP
-pip install notte-mcp
 ```
 
 </details>
 
 ### 🌐 Local Browser Control
 
-- [**Chrome DevTools MCP**](https://github.com/ChromeDevTools/chrome-devtools-mcp) by [Chrome DevTools (Google)](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Control and inspect a live Chrome browser, including network requests, console and performance traces.<br><sub>⭐ 57.3K · 🏠 Local · 🆓 Free · `Browser` · `JS` · `Screenshots`</sub>
-- [**Playwright MCP**](https://github.com/microsoft/playwright-mcp) by [Microsoft](https://playwright.dev) - Drive Chrome, Firefox or WebKit through accessibility snapshots, with 70+ tools for navigation, forms, screenshots and tracing.<br><sub>⭐ 39.7K · 🏠 Local · 🆓 Free · `Browser` · `JS` · `Screenshots`</sub>
-- [**Browser MCP**](https://github.com/browsermcp/mcp) by [Browser MCP](https://browsermcp.io) - Automate your own local Chrome, including its logged-in sessions, through a browser extension.<br><sub>⭐ 7.3K · 🏠 Local · 🆓 Free · `Browser` · `JS`</sub>
+- [**Chrome DevTools MCP**](https://github.com/ChromeDevTools/chrome-devtools-mcp) by [Chrome DevTools (Google)](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Control and inspect a live Chrome browser, including network requests, console and performance traces.<br><sub>⭐ 59.6K · 🏠 Local · 🆓 Free · `Browser` · `JS` · `Screenshots`</sub>
+- [**Playwright MCP**](https://github.com/microsoft/playwright-mcp) by [Microsoft](https://playwright.dev) - Drive Chrome, Firefox or WebKit through accessibility snapshots, with 70+ tools for navigation, forms, screenshots and tracing.<br><sub>⭐ 40.2K · 🏠 Local · 🆓 Free · `Browser` · `JS` · `Screenshots`</sub>
+- [**Browser MCP**](https://github.com/browsermcp/mcp) by [Browser MCP](https://browsermcp.io) - Automate your own local Chrome, including its logged-in sessions, through a browser extension.<br><sub>⭐ 7.4K · 🏠 Local · 🆓 Free · `Browser` · `JS`</sub>
 
 <details><summary>Install / connect</summary>
 
@@ -222,7 +222,7 @@ npx @browsermcp/mcp@latest
 
 ### 🥷 Stealth & Anti-detect Browsers
 
-- [**Scrapling MCP**](https://github.com/D4Vinci/Scrapling) by [Scrapling](https://github.com/D4Vinci/Scrapling) - Stealth HTTP and browser fetching with Cloudflare handling and CSS-selector extraction, from the Scrapling library.<br><sub>⭐ 103.5K† · 🏠 Local · 🆓 Free · `Anti-bot` · `JS` · `Browser` · `JSON`</sub>
+- [**Scrapling MCP**](https://github.com/D4Vinci/Scrapling) by [Scrapling](https://github.com/D4Vinci/Scrapling) - Stealth HTTP and browser fetching with Cloudflare handling and CSS-selector extraction, from the Scrapling library.<br><sub>⭐ 106.2K† · 🏠 Local · 🆓 Free · `Anti-bot` · `JS` · `Browser` · `JSON`</sub>
 
 <details><summary>Install / connect</summary>
 
@@ -235,15 +235,17 @@ pip install "scrapling[ai]" && scrapling mcp
 
 ### 🔎 Search & Content Extraction
 
-- [**Exa MCP**](https://github.com/exa-labs/exa-mcp-server) by [Exa](https://exa.ai) - Neural web search and page-content retrieval through the Exa API.<br><sub>⭐ 5.2K · ☁️ Hosted · 🏠 Local · 🔑 Free tier: $10 API credits · `Search` · `Markdown`</sub>
+- [**Fetch (reference server)**](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) by [Model Context Protocol](https://modelcontextprotocol.io) - The MCP project's reference server for fetching a URL and converting it to markdown. No JavaScript rendering.<br><sub>⭐ 92.3K† · 🏠 Local · 🆓 Free · `Markdown`</sub>
+- [**Exa MCP**](https://github.com/exa-labs/exa-mcp-server) by [Exa](https://exa.ai) - Neural web search and page-content retrieval through the Exa API.<br><sub>⭐ 5.3K · ☁️ Hosted · 🏠 Local · 🔑 Free tier: $10 API credits · `Search` · `Markdown`</sub>
 - [**Tavily MCP**](https://github.com/tavily-ai/tavily-mcp) by [Tavily](https://tavily.com) - Web search, URL extraction, site mapping and crawling through the Tavily API.<br><sub>⭐ 2.5K · ☁️ Hosted · 🏠 Local · 🔑 Free tier: 1,000 credits/month · `Search` · `Crawl` · `Markdown`</sub>
-- [**AgentQL MCP**](https://github.com/tinyfish-io/agentql-mcp) by [AgentQL (TinyFish)](https://www.agentql.com) - Extract structured data from web pages with AgentQL queries.<br><sub>⭐ 172 · 🏠 Local · 🔑 API key · `JSON` · `JS`</sub>
+- [**AgentQL MCP**](https://github.com/tinyfish-io/agentql-mcp) by [AgentQL (TinyFish)](https://www.agentql.com) - Extract structured data from web pages with AgentQL queries.<br><sub>⭐ 184 · 🏠 Local · 🔑 API key · `JSON` · `JS`</sub>
 - [**Jina AI MCP**](https://mcp.jina.ai) by [Jina AI](https://jina.ai) - Read URLs and PDFs as markdown, web and academic search, screenshots and reranking.<br><sub>☁️ Hosted · 🆓 Free · `Search` · `Markdown` · `Screenshots`</sub>
-- [**Fetch (reference server)**](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) by [Model Context Protocol](https://modelcontextprotocol.io) - The MCP project's reference server for fetching a URL and converting it to markdown. No JavaScript rendering.<br><sub>🏠 Local · 🆓 Free · `Markdown`</sub>
 
 <details><summary>Install / connect</summary>
 
 ```bash
+# Fetch (reference server)
+uvx mcp-server-fetch
 # Exa MCP
 npx -y exa-mcp-server
 # Tavily MCP
@@ -253,15 +255,13 @@ npx -y agentql-mcp
 # Jina AI MCP
 # remote endpoint: https://mcp.jina.ai/v1
 Remote: https://mcp.jina.ai/v1
-# Fetch (reference server)
-uvx mcp-server-fetch
 ```
 
 </details>
 
 ### 🕸️ Self-hosted Crawlers
 
-- [**Crawl4AI (built-in MCP)**](https://docs.crawl4ai.com) by [Crawl4AI](https://crawl4ai.com) - Crawl4AI's Docker server exposes an MCP endpoint for crawling, scraping, screenshots, PDFs and extraction.<br><sub>☁️ Hosted · 🏠 Local · 🆓 Free · `Crawl` · `JS` · `JSON` · `Markdown` · `Screenshots`</sub>
+- [**Crawl4AI (built-in MCP)**](https://docs.crawl4ai.com) by [Crawl4AI](https://crawl4ai.com) - Crawl4AI's Docker server exposes an MCP endpoint for crawling, scraping, screenshots, PDFs and extraction.<br><sub>⭐ 88K† · ☁️ Hosted · 🏠 Local · 🆓 Free · `Crawl` · `JS` · `JSON` · `Markdown` · `Screenshots`</sub>
 
 <details><summary>Install / connect</summary>
 
@@ -279,30 +279,30 @@ Built by independent developers, often wrapping an open-source library or someon
 ### 🌐 Local Browser Control
 
 - [**Playwright MCP Server**](https://github.com/executeautomation/mcp-playwright) by [@executeautomation](https://github.com/executeautomation) - Playwright browser and API automation for Claude Desktop, Cursor, Cline and other clients.<br><sub>⭐ 5.7K · 🏠 Local · 🆓 Free · `Browser` · `JS` · `Screenshots`</sub>
+- [**browser-use-mcp-server**](https://github.com/kontext-dev/browser-use-mcp-server) by [@kontext-dev](https://github.com/kontext-dev) - Run browser-use as an MCP server over SSE or stdio, with Docker and VNC support.<br><sub>⭐ 849 · 🏠 Local · 🆓 Free · `Browser` · `JS`</sub>
+- [**mcp-server-browser-use**](https://github.com/Saik0s/mcp-browser-use) by [@Saik0s](https://github.com/Saik0s) - Wraps the browser-use agent so an MCP client can hand it natural-language browsing and research tasks.<br><sub>⭐ 971 · 🏠 Local · 🆓 Free · `Browser` · `JS` · `JSON`</sub>
 - [**Selenium MCP**](https://github.com/angiejones/mcp-selenium) by [@angiejones](https://github.com/angiejones) - Control browsers through Selenium WebDriver.<br><sub>⭐ 431 · 🏠 Local · 🆓 Free · `Browser` · `JS`</sub>
-- [**mcp-server-browser-use**](https://github.com/Saik0s/mcp-browser-use) by [@Saik0s](https://github.com/Saik0s) - Wraps the browser-use agent so an MCP client can hand it natural-language browsing and research tasks.<br><sub>🏠 Local · 🆓 Free · `Browser` · `JS` · `JSON`</sub>
-- [**browser-use-mcp-server**](https://github.com/kontext-dev/browser-use-mcp-server) by [@kontext-dev](https://github.com/kontext-dev) - Run browser-use as an MCP server over SSE or stdio, with Docker and VNC support.<br><sub>🏠 Local · 🆓 Free · `Browser` · `JS`</sub>
 
 <details><summary>Install / connect</summary>
 
 ```bash
 # Playwright MCP Server
 npx -y @executeautomation/playwright-mcp-server
-# Selenium MCP
-npx -y @angiejones/mcp-selenium
-# mcp-server-browser-use
-uvx mcp-server-browser-use@latest
 # browser-use-mcp-server
 see https://github.com/kontext-dev/browser-use-mcp-server
+# mcp-server-browser-use
+uvx mcp-server-browser-use@latest
+# Selenium MCP
+npx -y @angiejones/mcp-selenium
 ```
 
 </details>
 
 ### 🥷 Stealth & Anti-detect Browsers
 
-- [**Invisible Playwright MCP**](https://github.com/oss-invisible/playwright_mcp) by [@oss-invisible](https://github.com/oss-invisible) - Playwright MCP variant focused on avoiding bot detection.<br><sub>⭐ 865 · 🏠 Local · 🆓 Free · `Anti-bot` · `Browser` · `JS`</sub>
-- [**camofox-mcp**](https://github.com/redf0x1/camofox-mcp) by [@redf0x1](https://github.com/redf0x1) - Anti-detection browsing through Camoufox, a Firefox fork that spoofs browser fingerprints.<br><sub>🏠 Local · 🆓 Free · `Anti-bot` · `Browser` · `JS`</sub>
-- [**camoufox-mcp-server**](https://github.com/whit3rabbit/camoufox-mcp) by [@whit3rabbit](https://github.com/whit3rabbit) - Browser automation on Camoufox with its anti-detection features.<br><sub>🏠 Local · 🆓 Free · `Anti-bot` · `Browser` · `JS`</sub>
+- [**Invisible Playwright MCP**](https://github.com/oss-invisible/playwright_mcp) by [@oss-invisible](https://github.com/oss-invisible) - Playwright MCP variant focused on avoiding bot detection.<br><sub>⭐ 815 · 🏠 Local · 🆓 Free · `Anti-bot` · `Browser` · `JS`</sub>
+- [**camofox-mcp**](https://github.com/redf0x1/camofox-mcp) by [@redf0x1](https://github.com/redf0x1) - Anti-detection browsing through Camoufox, a Firefox fork that spoofs browser fingerprints.<br><sub>⭐ 129 · 🏠 Local · 🆓 Free · `Anti-bot` · `Browser` · `JS`</sub>
+- [**camoufox-mcp-server**](https://github.com/whit3rabbit/camoufox-mcp) by [@whit3rabbit](https://github.com/whit3rabbit) - Browser automation on Camoufox with its anti-detection features.<br><sub>⭐ 56 · 🏠 Local · 🆓 Free · `Anti-bot` · `Browser` · `JS`</sub>
 
 <details><summary>Install / connect</summary>
 
@@ -319,8 +319,8 @@ npx -y camoufox-mcp-server
 
 ### 🔎 Search & Content Extraction
 
-- [**fetch-mcp**](https://github.com/zcaceres/fetch-mcp) by [@zcaceres](https://github.com/zcaceres) - Fetch web content as HTML, JSON, plain text or markdown.<br><sub>⭐ 836 · 🏠 Local · 🆓 Free · `Markdown`</sub>
-- [**Spider Cloud MCP**](https://github.com/willbohn/spider-mcp) by [@willbohn](https://github.com/willbohn) - Scrape, crawl, search, extract links and take screenshots through the Spider Cloud API.<br><sub>🏠 Local · 🔑 API key · `Anti-bot` · `JS` · `Crawl` · `Search` · `Screenshots`</sub>
+- [**fetch-mcp**](https://github.com/zcaceres/fetch-mcp) by [@zcaceres](https://github.com/zcaceres) - Fetch web content as HTML, JSON, plain text or markdown.<br><sub>⭐ 835 · 🏠 Local · 🆓 Free · `Markdown`</sub>
+- [**Spider Cloud MCP**](https://github.com/willbohn/spider-mcp) by [@willbohn](https://github.com/willbohn) - Scrape, crawl, search, extract links and take screenshots through the Spider Cloud API.<br><sub>⭐ 1 · 🏠 Local · 🔑 API key · `Anti-bot` · `JS` · `Crawl` · `Search` · `Screenshots`</sub>
 
 <details><summary>Install / connect</summary>
 
@@ -335,17 +335,17 @@ npx @willbohn/spider-mcp
 
 ### 🕸️ Self-hosted Crawlers
 
-- [**crawl-mcp**](https://github.com/walksoda/crawl-mcp) by [@walksoda](https://github.com/walksoda) - Unofficial Crawl4AI MCP server for crawling, content extraction and AI analysis.<br><sub>🏠 Local · 🆓 Free · `Crawl` · `JS` · `Markdown`</sub>
-- [**mcp-crawl4ai-rag**](https://github.com/coleam00/mcp-crawl4ai-rag) by [@coleam00](https://github.com/coleam00) - Crawl sites with Crawl4AI and store them in a vector database for RAG.<br><sub>🏠 Local · 🆓 Free · `Crawl` · `Markdown`</sub>
-- [**crawl4ai-mcp**](https://github.com/wyattowalsh/crawl4ai-mcp) by [@wyattowalsh](https://github.com/wyattowalsh) - Crawl4AI-powered crawling MCP server, packaged with Playwright browsers in Docker.<br><sub>🏠 Local · 🆓 Free · `Crawl` · `JS`</sub>
+- [**mcp-crawl4ai-rag**](https://github.com/coleam00/mcp-crawl4ai-rag) by [@coleam00](https://github.com/coleam00) - Crawl sites with Crawl4AI and store them in a vector database for RAG.<br><sub>⭐ 2.3K · 🏠 Local · 🆓 Free · `Crawl` · `Markdown`</sub>
+- [**crawl-mcp**](https://github.com/walksoda/crawl-mcp) by [@walksoda](https://github.com/walksoda) - Unofficial Crawl4AI MCP server for crawling, content extraction and AI analysis.<br><sub>⭐ 49 · 🏠 Local · 🆓 Free · `Crawl` · `JS` · `Markdown`</sub>
+- [**crawl4ai-mcp**](https://github.com/wyattowalsh/crawl4ai-mcp) by [@wyattowalsh](https://github.com/wyattowalsh) - Crawl4AI-powered crawling MCP server, packaged with Playwright browsers in Docker.<br><sub>⭐ 1 · 🏠 Local · 🆓 Free · `Crawl` · `JS`</sub>
 
 <details><summary>Install / connect</summary>
 
 ```bash
-# crawl-mcp
-uvx --from git+https://github.com/walksoda/crawl-mcp crawl-mcp
 # mcp-crawl4ai-rag
 see https://github.com/coleam00/mcp-crawl4ai-rag
+# crawl-mcp
+uvx --from git+https://github.com/walksoda/crawl-mcp crawl-mcp
 # crawl4ai-mcp
 pip install mcp-crawl4ai
 ```
@@ -363,43 +363,43 @@ What each server can do, as described in its own documentation. Free tiers are a
 | [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 🏠 Local | ✅ |  | ✅ | ✅ |  |  |  |  |  | ✅ |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 🏠 Local | ✅ |  | ✅ | ✅ |  |  |  |  |  | ✅ |
 | [Scrapling MCP](https://github.com/D4Vinci/Scrapling) | 🏠 Local | ✅ | ✅ | ✅ | ✅ |  | ✅ |  |  |  |  |
+| [Fetch (reference server)](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) | 🏠 Local | ✅ |  |  |  |  |  |  |  | ✅ |  |
+| [Crawl4AI (built-in MCP)](https://docs.crawl4ai.com) | ☁️ Hosted · 🏠 Local | ✅ |  | ✅ |  | ✅ | ✅ |  |  | ✅ | ✅ |
 | [Apify MCP](https://github.com/apify/apify-mcp-server) | ☁️ Hosted · 🏠 Local | $5/month platform usage | ✅ |  |  | ✅ | ✅ | ✅ |  |  |  |
 | [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | ☁️ Hosted · 🏠 Local | 1,000 credits/month |  | ✅ |  | ✅ | ✅ | ✅ |  | ✅ | ✅ |
-| [Browser MCP](https://github.com/browsermcp/mcp) | 🏠 Local | ✅ |  | ✅ | ✅ |  |  |  |  |  |  |
-| [Playwright MCP Server](https://github.com/executeautomation/mcp-playwright) | 🏠 Local | ✅ |  | ✅ | ✅ |  |  |  |  |  | ✅ |
 | [Skyvern MCP](https://github.com/Skyvern-AI/skyvern) | ☁️ Hosted · 🏠 Local | ✅ |  | ✅ | ✅ |  | ✅ |  |  |  |  |
+| [Browser MCP](https://github.com/browsermcp/mcp) | 🏠 Local | ✅ |  | ✅ | ✅ |  |  |  |  |  |  |
 | [Exa MCP](https://github.com/exa-labs/exa-mcp-server) | ☁️ Hosted · 🏠 Local | $10 API credits |  |  |  |  |  | ✅ |  | ✅ |  |
 | [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | ☁️ Hosted · 🏠 Local | 5,000 requests/month | ✅ | ✅ | ✅ |  | ✅ | ✅ | ✅ | ✅ |  |
 | [Tavily MCP](https://github.com/tavily-ai/tavily-mcp) | ☁️ Hosted · 🏠 Local | 1,000 credits/month |  |  |  | ✅ |  | ✅ |  | ✅ |  |
-| [Invisible Playwright MCP](https://github.com/oss-invisible/playwright_mcp) | 🏠 Local | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |
 | [fetch-mcp](https://github.com/zcaceres/fetch-mcp) | 🏠 Local | ✅ |  |  |  |  |  |  |  | ✅ |  |
-| [Hyperbrowser MCP](https://github.com/hyperbrowserai/mcp) | 🏠 Local |  | ✅ | ✅ | ✅ | ✅ | ✅ |  |  |  |  |
-| [Selenium MCP](https://github.com/angiejones/mcp-selenium) | 🏠 Local | ✅ |  | ✅ | ✅ |  |  |  |  |  |  |
+| [Playwright MCP Server](https://github.com/executeautomation/mcp-playwright) | 🏠 Local | ✅ |  | ✅ | ✅ |  |  |  |  |  | ✅ |
+| [Invisible Playwright MCP](https://github.com/oss-invisible/playwright_mcp) | 🏠 Local | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |
+| [browser-use-mcp-server](https://github.com/kontext-dev/browser-use-mcp-server) | 🏠 Local | ✅ |  | ✅ | ✅ |  |  |  |  |  |  |
+| [Notte MCP](https://github.com/nottelabs/notte) | 🏠 Local |  |  | ✅ | ✅ |  | ✅ |  |  |  | ✅ |
+| [mcp-crawl4ai-rag](https://github.com/coleam00/mcp-crawl4ai-rag) | 🏠 Local | ✅ |  |  |  | ✅ |  |  |  | ✅ |  |
 | [AgentQL MCP](https://github.com/tinyfish-io/agentql-mcp) | 🏠 Local |  |  | ✅ |  |  | ✅ |  |  |  |  |
+| [mcp-server-browser-use](https://github.com/Saik0s/mcp-browser-use) | 🏠 Local | ✅ |  | ✅ | ✅ |  | ✅ |  |  |  |  |
+| [Hyperbrowser MCP](https://github.com/hyperbrowserai/mcp) | 🏠 Local |  | ✅ | ✅ | ✅ | ✅ | ✅ |  |  |  |  |
+| [Oxylabs MCP](https://github.com/oxylabs/oxylabs-mcp) | ☁️ Hosted · 🏠 Local | 1,000 AI Studio credits; one-week Web Scraper API trial | ✅ | ✅ |  | ✅ | ✅ | ✅ | ✅ | ✅ |  |
+| [camofox-mcp](https://github.com/redf0x1/camofox-mcp) | 🏠 Local | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |
+| [Selenium MCP](https://github.com/angiejones/mcp-selenium) | 🏠 Local | ✅ |  | ✅ | ✅ |  |  |  |  |  |  |
+| [camoufox-mcp-server](https://github.com/whit3rabbit/camoufox-mcp) | 🏠 Local | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |
+| [Decodo MCP](https://github.com/Decodo/mcp-web-scraper) | 🏠 Local | Free trial | ✅ | ✅ |  |  |  |  | ✅ |  |  |
+| [crawl-mcp](https://github.com/walksoda/crawl-mcp) | 🏠 Local | ✅ |  | ✅ |  | ✅ |  |  |  | ✅ |  |
+| [Olostep MCP](https://github.com/olostep/olostep-mcp-server) | ☁️ Hosted · 🏠 Local | 500 requests/month |  | ✅ |  | ✅ |  | ✅ |  | ✅ |  |
+| [ZenRows MCP](https://github.com/ZenRows/zenrows-mcp) | ☁️ Hosted · 🏠 Local |  | ✅ | ✅ |  |  |  |  | ✅ | ✅ |  |
+| [ScrapeGraph MCP](https://github.com/ScrapeGraphAI/scrapegraph-mcp) | ☁️ Hosted · 🏠 Local |  |  | ✅ |  | ✅ | ✅ | ✅ |  | ✅ |  |
 | [Browserbase MCP](https://github.com/browserbase/mcp-server-browserbase) | ☁️ Hosted · 🏠 Local | 1 browser hour/month | ✅ | ✅ | ✅ |  |  |  |  |  | ✅ |
 | [Steel MCP](https://github.com/steel-dev/steel-mcp-server) | 🏠 Local |  |  | ✅ | ✅ |  |  |  |  |  |  |
-| [Olostep MCP](https://github.com/olostep/olostep-mcp-server) | ☁️ Hosted · 🏠 Local | 500 requests/month |  | ✅ |  | ✅ |  | ✅ |  | ✅ |  |
-| [Oxylabs MCP](https://github.com/oxylabs/oxylabs-mcp) | ☁️ Hosted · 🏠 Local | 1,000 AI Studio credits; one-week Web Scraper API trial | ✅ | ✅ |  | ✅ | ✅ | ✅ | ✅ | ✅ |  |
-| [ZenRows MCP](https://github.com/ZenRows/zenrows-mcp) | ☁️ Hosted · 🏠 Local |  | ✅ | ✅ |  |  |  |  | ✅ | ✅ |  |
-| [Decodo MCP](https://github.com/Decodo/mcp-web-scraper) | 🏠 Local | Free trial | ✅ | ✅ |  |  |  |  | ✅ |  |  |
+| [Spider Cloud MCP](https://github.com/willbohn/spider-mcp) | 🏠 Local |  | ✅ | ✅ |  | ✅ |  | ✅ |  |  | ✅ |
+| [crawl4ai-mcp](https://github.com/wyattowalsh/crawl4ai-mcp) | 🏠 Local | ✅ |  | ✅ |  | ✅ |  |  |  |  |  |
+| [ScrapeOps MCP](https://github.com/ScrapeOps/scrapeops-mcp-server) | 🏠 Local |  | ✅ | ✅ |  |  |  |  | ✅ |  |  |
 | [ScraperAPI MCP](https://www.scraperapi.com) | ☁️ Hosted · 🏠 Local | 5,000 API credits | ✅ | ✅ |  |  | ✅ | ✅ | ✅ |  |  |
 | [Scrapfly MCP](https://scrapfly.io/docs/mcp/integrations) | ☁️ Hosted | 1,000 credits | ✅ | ✅ | ✅ |  | ✅ |  |  |  | ✅ |
 | [ScrapingBee MCP](https://www.scrapingbee.com) | ☁️ Hosted | 1,000 credits | ✅ | ✅ |  |  | ✅ | ✅ |  |  | ✅ |
-| [ScrapeGraph MCP](https://github.com/ScrapeGraphAI/scrapegraph-mcp) | ☁️ Hosted · 🏠 Local |  |  | ✅ |  | ✅ | ✅ | ✅ |  | ✅ |  |
 | [Geekflare MCP](https://geekflare.com/mcp/) | ☁️ Hosted · 🏠 Local | 500 credits |  | ✅ |  |  |  | ✅ |  |  | ✅ |
-| [ScrapeOps MCP](https://github.com/ScrapeOps/scrapeops-mcp-server) | 🏠 Local |  | ✅ | ✅ |  |  |  |  | ✅ |  |  |
-| [Notte MCP](https://github.com/nottelabs/notte) | 🏠 Local |  |  | ✅ | ✅ |  | ✅ |  |  |  | ✅ |
-| [mcp-server-browser-use](https://github.com/Saik0s/mcp-browser-use) | 🏠 Local | ✅ |  | ✅ | ✅ |  | ✅ |  |  |  |  |
-| [browser-use-mcp-server](https://github.com/kontext-dev/browser-use-mcp-server) | 🏠 Local | ✅ |  | ✅ | ✅ |  |  |  |  |  |  |
-| [camofox-mcp](https://github.com/redf0x1/camofox-mcp) | 🏠 Local | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |
-| [camoufox-mcp-server](https://github.com/whit3rabbit/camoufox-mcp) | 🏠 Local | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |  |
 | [Jina AI MCP](https://mcp.jina.ai) | ☁️ Hosted | ✅ |  |  |  |  |  | ✅ |  | ✅ | ✅ |
-| [Fetch (reference server)](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) | 🏠 Local | ✅ |  |  |  |  |  |  |  | ✅ |  |
-| [Spider Cloud MCP](https://github.com/willbohn/spider-mcp) | 🏠 Local |  | ✅ | ✅ |  | ✅ |  | ✅ |  |  | ✅ |
-| [Crawl4AI (built-in MCP)](https://docs.crawl4ai.com) | ☁️ Hosted · 🏠 Local | ✅ |  | ✅ |  | ✅ | ✅ |  |  | ✅ | ✅ |
-| [crawl-mcp](https://github.com/walksoda/crawl-mcp) | 🏠 Local | ✅ |  | ✅ |  | ✅ |  |  |  | ✅ |  |
-| [mcp-crawl4ai-rag](https://github.com/coleam00/mcp-crawl4ai-rag) | 🏠 Local | ✅ |  |  |  | ✅ |  |  |  | ✅ |  |
-| [crawl4ai-mcp](https://github.com/wyattowalsh/crawl4ai-mcp) | 🏠 Local | ✅ |  | ✅ |  | ✅ |  |  |  |  |  |
 
 **Anti-bot**: Handles bot detection, CAPTCHAs or WAFs such as Cloudflare · **JS**: Renders JavaScript-heavy pages · **Browser**: Drives an interactive browser session (clicks, forms, logins) · **Crawl**: Crawls multiple pages or whole sites · **JSON**: Returns structured data, not just page text · **Search**: Web or SERP search · **Proxies**: Routes requests through managed proxies · **Markdown**: Returns LLM-ready markdown · **Screenshots**: Captures page screenshots
 
@@ -443,4 +443,4 @@ Each server gets a score from 0 to 100: **85% GitHub stars** (log-scaled) and **
 
 ---
 
-<div align="center"><sub>Curated by <a href="https://www.reddit.com/r/WebScrapingInsider/">The Web Scraping Insider</a> · Supported by <a href="https://scrapeops.io/?utm_source=awesome-web-scraping-mcp-servers&utm_medium=github">ScrapeOps</a> · Stats last refreshed 2026-11-26</sub></div>
+<div align="center"><sub>Curated by <a href="https://www.reddit.com/r/WebScrapingInsider/">The Web Scraping Insider</a> · Supported by <a href="https://scrapeops.io/?utm_source=awesome-web-scraping-mcp-servers&utm_medium=github">ScrapeOps</a> · Stats last refreshed 2026-11-27</sub></div>

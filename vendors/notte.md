@@ -7,9 +7,9 @@ Cloud browsers & web agents · [https://www.notte.cc](https://www.notte.cc)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Notte MCP](https://github.com/nottelabs/notte) | Cloud Browsers | 🏠 Local | – | 0.0 |
+| [Notte MCP](https://github.com/nottelabs/notte) | Cloud Browsers | 🏠 Local | 2.1K | 63.4 |
 
-- [**Notte MCP**](https://github.com/nottelabs/notte) - Cloud browser sessions with observe, scrape and act tools, plus a web agent that completes tasks on any site.<br><sub>🏠 Local · 🔑 API key · `Browser` · `JS` · `JSON` · `Screenshots`</sub>
+- [**Notte MCP**](https://github.com/nottelabs/notte) - Cloud browser sessions with observe, scrape and act tools, plus a web agent that completes tasks on any site.<br><sub>⭐ 2.1K† · 🏠 Local · 🔑 API key · `Browser` · `JS` · `JSON` · `Screenshots`</sub>
 
 <details><summary>Install / connect</summary>
 

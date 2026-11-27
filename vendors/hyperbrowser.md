@@ -7,9 +7,9 @@ Cloud browsers · [https://www.hyperbrowser.ai](https://www.hyperbrowser.ai)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Hyperbrowser MCP](https://github.com/hyperbrowserai/mcp) | Cloud Browsers | 🏠 Local | 791 | 51.8 |
+| [Hyperbrowser MCP](https://github.com/hyperbrowserai/mcp) | Cloud Browsers | 🏠 Local | 795 | 51.6 |
 
-- [**Hyperbrowser MCP**](https://github.com/hyperbrowserai/mcp) - Scrape, extract structured data and crawl pages using Hyperbrowser's cloud browsers.<br><sub>⭐ 791 · 🏠 Local · 🔑 API key · `Browser` · `JS` · `Crawl` · `JSON` · `Anti-bot`</sub>
+- [**Hyperbrowser MCP**](https://github.com/hyperbrowserai/mcp) - Scrape, extract structured data and crawl pages using Hyperbrowser's cloud browsers.<br><sub>⭐ 795 · 🏠 Local · 🔑 API key · `Browser` · `JS` · `Crawl` · `JSON` · `Anti-bot`</sub>
 
 <details><summary>Install / connect</summary>
 

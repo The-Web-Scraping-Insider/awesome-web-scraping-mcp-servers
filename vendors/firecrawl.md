@@ -7,9 +7,9 @@ Scraping & crawling API · [https://firecrawl.dev](https://firecrawl.dev)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | Scraping APIs & Unblockers | ☁️ Hosted · 🏠 Local | 7.8K | 69.5 |
+| [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | Scraping APIs & Unblockers | ☁️ Hosted · 🏠 Local | 7.9K | 84.4 |
 
-- [**Firecrawl MCP**](https://github.com/firecrawl/firecrawl-mcp-server) - Search, scrape, map, crawl and extract structured data, with screenshots and page interaction; works with Firecrawl cloud or self-hosted.<br><sub>⭐ 7.8K · ☁️ Hosted · 🏠 Local · 🔑 Free tier: 1,000 credits/month · `JS` · `Crawl` · `Search` · `JSON` · `Markdown` · `Screenshots`</sub>
+- [**Firecrawl MCP**](https://github.com/firecrawl/firecrawl-mcp-server) - Search, scrape, map, crawl and extract structured data, with screenshots and page interaction; works with Firecrawl cloud or self-hosted.<br><sub>⭐ 7.9K · ☁️ Hosted · 🏠 Local · 🔑 Free tier: 1,000 credits/month · `JS` · `Crawl` · `Search` · `JSON` · `Markdown` · `Screenshots`</sub>
 
 <details><summary>Install / connect</summary>
 

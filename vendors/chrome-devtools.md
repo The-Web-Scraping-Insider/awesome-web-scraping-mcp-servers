@@ -7,9 +7,9 @@ Browser debugging & automation · [https://github.com/ChromeDevTools/chrome-devt
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Local Browser Control | 🏠 Local | 57.3K | 85.0 |
+| [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Local Browser Control | 🏠 Local | 59.6K | 100.0 |
 
-- [**Chrome DevTools MCP**](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Control and inspect a live Chrome browser, including network requests, console and performance traces.<br><sub>⭐ 57.3K · 🏠 Local · 🆓 Free · `Browser` · `JS` · `Screenshots`</sub>
+- [**Chrome DevTools MCP**](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Control and inspect a live Chrome browser, including network requests, console and performance traces.<br><sub>⭐ 59.6K · 🏠 Local · 🆓 Free · `Browser` · `JS` · `Screenshots`</sub>
 
 <details><summary>Install / connect</summary>
 

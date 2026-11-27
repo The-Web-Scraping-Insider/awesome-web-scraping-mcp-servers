@@ -7,7 +7,7 @@ Open-source crawlers you run yourself, no API key needed.
 
 ## Official
 
-- [**Crawl4AI (built-in MCP)**](https://docs.crawl4ai.com) by [Crawl4AI](https://crawl4ai.com) - Crawl4AI's Docker server exposes an MCP endpoint for crawling, scraping, screenshots, PDFs and extraction.<br><sub>☁️ Hosted · 🏠 Local · 🆓 Free · `Crawl` · `JS` · `JSON` · `Markdown` · `Screenshots`</sub>
+- [**Crawl4AI (built-in MCP)**](https://docs.crawl4ai.com) by [Crawl4AI](https://crawl4ai.com) - Crawl4AI's Docker server exposes an MCP endpoint for crawling, scraping, screenshots, PDFs and extraction.<br><sub>⭐ 88K† · ☁️ Hosted · 🏠 Local · 🆓 Free · `Crawl` · `JS` · `JSON` · `Markdown` · `Screenshots`</sub>
 
 <details><summary>Install / connect</summary>
 
@@ -20,17 +20,17 @@ docker run -p 11235:11235 unclecode/crawl4ai → http://localhost:11235/mcp/sse
 
 ## Community
 
-- [**crawl-mcp**](https://github.com/walksoda/crawl-mcp) by [@walksoda](https://github.com/walksoda) - Unofficial Crawl4AI MCP server for crawling, content extraction and AI analysis.<br><sub>🏠 Local · 🆓 Free · `Crawl` · `JS` · `Markdown`</sub>
-- [**mcp-crawl4ai-rag**](https://github.com/coleam00/mcp-crawl4ai-rag) by [@coleam00](https://github.com/coleam00) - Crawl sites with Crawl4AI and store them in a vector database for RAG.<br><sub>🏠 Local · 🆓 Free · `Crawl` · `Markdown`</sub>
-- [**crawl4ai-mcp**](https://github.com/wyattowalsh/crawl4ai-mcp) by [@wyattowalsh](https://github.com/wyattowalsh) - Crawl4AI-powered crawling MCP server, packaged with Playwright browsers in Docker.<br><sub>🏠 Local · 🆓 Free · `Crawl` · `JS`</sub>
+- [**mcp-crawl4ai-rag**](https://github.com/coleam00/mcp-crawl4ai-rag) by [@coleam00](https://github.com/coleam00) - Crawl sites with Crawl4AI and store them in a vector database for RAG.<br><sub>⭐ 2.3K · 🏠 Local · 🆓 Free · `Crawl` · `Markdown`</sub>
+- [**crawl-mcp**](https://github.com/walksoda/crawl-mcp) by [@walksoda](https://github.com/walksoda) - Unofficial Crawl4AI MCP server for crawling, content extraction and AI analysis.<br><sub>⭐ 49 · 🏠 Local · 🆓 Free · `Crawl` · `JS` · `Markdown`</sub>
+- [**crawl4ai-mcp**](https://github.com/wyattowalsh/crawl4ai-mcp) by [@wyattowalsh](https://github.com/wyattowalsh) - Crawl4AI-powered crawling MCP server, packaged with Playwright browsers in Docker.<br><sub>⭐ 1 · 🏠 Local · 🆓 Free · `Crawl` · `JS`</sub>
 
 <details><summary>Install / connect</summary>
 
 ```bash
-# crawl-mcp
-uvx --from git+https://github.com/walksoda/crawl-mcp crawl-mcp
 # mcp-crawl4ai-rag
 see https://github.com/coleam00/mcp-crawl4ai-rag
+# crawl-mcp
+uvx --from git+https://github.com/walksoda/crawl-mcp crawl-mcp
 # crawl4ai-mcp
 pip install mcp-crawl4ai
 ```

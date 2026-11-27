@@ -7,7 +7,7 @@ Proxies, unblocker & scraping APIs · [https://brightdata.com](https://brightdat
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | Scraping APIs & Unblockers | ☁️ Hosted · 🏠 Local | 2.7K | 61.3 |
+| [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | Scraping APIs & Unblockers | ☁️ Hosted · 🏠 Local | 2.7K | 76.0 |
 
 - [**Bright Data MCP**](https://github.com/brightdata/brightdata-mcp) - Search engines, markdown scraping, structured data for major platforms and a scraping browser, with bot-detection bypass and CAPTCHA solving.<br><sub>⭐ 2.7K · ☁️ Hosted · 🏠 Local · 🔑 Free tier: 5,000 requests/month · `Anti-bot` · `JS` · `Browser` · `Search` · `JSON` · `Proxies` · `Markdown`</sub>
 
