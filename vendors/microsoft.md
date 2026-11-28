@@ -7,7 +7,7 @@ Browser automation framework · [https://playwright.dev](https://playwright.dev)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Local Browser Control | 🏠 Local | 40.2K | 95.6 |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Local Browser Control | 🏠 Local | 40.2K | 95.5 |
 
 - [**Playwright MCP**](https://github.com/microsoft/playwright-mcp) - Drive Chrome, Firefox or WebKit through accessibility snapshots, with 70+ tools for navigation, forms, screenshots and tracing.<br><sub>⭐ 40.2K · 🏠 Local · 🆓 Free · `Browser` · `JS` · `Screenshots`</sub>
 

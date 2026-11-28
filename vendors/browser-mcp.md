@@ -7,7 +7,7 @@ Local browser control · [https://browsermcp.io](https://browsermcp.io)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Browser MCP](https://github.com/browsermcp/mcp) | Local Browser Control | 🏠 Local | 7.4K | 81.6 |
+| [Browser MCP](https://github.com/browsermcp/mcp) | Local Browser Control | 🏠 Local | 7.4K | 81.4 |
 
 - [**Browser MCP**](https://github.com/browsermcp/mcp) - Automate your own local Chrome, including its logged-in sessions, through a browser extension.<br><sub>⭐ 7.4K · 🏠 Local · 🆓 Free · `Browser` · `JS`</sub>
 

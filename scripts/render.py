@@ -10,8 +10,10 @@ import sys
 from datetime import date
 
 from common import ROOT, fmt_num, item_url, load_all
+from org_footer import badge_section_md, footer_md, load_org
 
-REPO = "The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers"
+REPO_NAME = "awesome-web-scraping-mcp-servers"
+REPO = f"The-Web-Scraping-Insider/{REPO_NAME}"
 REPO_URL = f"https://github.com/{REPO}"
 SKILLS_URL = "https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-skills"
 SUBREDDIT = "https://www.reddit.com/r/WebScrapingInsider/"
@@ -108,7 +110,7 @@ def render_readme(servers, vendors, categories, caps, picks, stats):
     w("## Contents\n")
     toc = ["What is a scraping MCP server?", "Top 10", "Quick picks", "Official servers",
            "Community servers", "Comparison table", "Browse by category",
-           "Related lists", "Contributing", "How the ranking works"]
+           "Related lists", "Contributing", "Are you listed? Add the badge", "How the ranking works"]
     for t in toc:
         w(f"- [{t}](#{anchor(t)})")
     w("")
@@ -209,11 +211,8 @@ def render_readme(servers, vendors, categories, caps, picks, stats):
     w(f"Missing a server? [Submit it with the form]({REPO_URL}/issues/new?template=submit-server.yml) "
       "or open a PR that edits [`data/servers.yaml`](data/servers.yaml). Don't edit this README; it's generated. "
       "See [CONTRIBUTING.md](CONTRIBUTING.md).\n")
-    w("**Are you listed?** Add the badge to your repo:\n")
-    w(f"[![Featured in Awesome Web Scraping MCP Servers](assets/badges/featured.svg)]({REPO_URL})\n")
-    w("```markdown\n"
-      f"[![Featured in Awesome Web Scraping MCP Servers](https://raw.githubusercontent.com/{REPO}/main/assets/badges/featured.svg)]({REPO_URL})\n"
-      "```\n")
+    org = load_org()
+    w(badge_section_md(org, REPO_NAME))
 
     w("## How the ranking works\n")
     w("Each server gets a score from 0 to 100: **85% GitHub stars** (log-scaled) and **15% recent activity** "
@@ -222,9 +221,9 @@ def render_readme(servers, vendors, categories, caps, picks, stats):
       "for completeness. Inclusion is editorial; ranking is automatic and identical for every vendor. "
       "Details: [METHODOLOGY.md](METHODOLOGY.md).\n")
 
-    w("---\n")
     w(f'<div align="center"><sub>Curated by <a href="{SUBREDDIT}">The Web Scraping Insider</a> · '
-      f'Supported by <a href="{SCRAPEOPS}">ScrapeOps</a> · Stats last refreshed {updated}</sub></div>')
+      f'Supported by <a href="{SCRAPEOPS}">ScrapeOps</a> · Stats last refreshed {updated}</sub></div>\n')
+    w(footer_md(org, REPO_NAME))
     return "\n".join(L) + "\n"
 
 

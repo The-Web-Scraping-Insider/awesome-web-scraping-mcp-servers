@@ -7,7 +7,7 @@ Scraping API · [https://www.zenrows.com](https://www.zenrows.com)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [ZenRows MCP](https://github.com/ZenRows/zenrows-mcp) | Scraping APIs & Unblockers | ☁️ Hosted · 🏠 Local | 22 | 38.7 |
+| [ZenRows MCP](https://github.com/ZenRows/zenrows-mcp) | Scraping APIs & Unblockers | ☁️ Hosted · 🏠 Local | 22 | 38.6 |
 
 - [**ZenRows MCP**](https://github.com/ZenRows/zenrows-mcp) - Fetch live web content from sites that block bots, through the ZenRows scraping API.<br><sub>⭐ 22 · ☁️ Hosted · 🏠 Local · 🔑 API key · `Anti-bot` · `JS` · `Proxies` · `Markdown`</sub>
 
