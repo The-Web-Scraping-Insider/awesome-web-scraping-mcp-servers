@@ -7,7 +7,7 @@ Open-source crawlers you run yourself, no API key needed.
 
 ## Official
 
-- [**Crawl4AI (built-in MCP)**](https://docs.crawl4ai.com) by [Crawl4AI](https://crawl4ai.com) - Crawl4AI's Docker server exposes an MCP endpoint for crawling, scraping, screenshots, PDFs and extraction.<br><sub>⭐ 88K† · ☁️ Hosted · 🏠 Local · 🆓 Free · `Crawl` · `JS` · `JSON` · `Markdown` · `Screenshots`</sub>
+- [**Crawl4AI (built-in MCP)**](https://docs.crawl4ai.com) by [Crawl4AI](https://crawl4ai.com) - Crawl4AI's Docker server exposes an MCP endpoint for crawling, scraping, screenshots, PDFs and extraction.<br><sub>⭐ 88.1K† · ☁️ Hosted · 🏠 Local · 🆓 Free · `Crawl` · `JS` · `JSON` · `Markdown` · `Screenshots`</sub>
 
 <details><summary>Install / connect</summary>
 

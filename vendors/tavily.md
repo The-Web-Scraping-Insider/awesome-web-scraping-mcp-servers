@@ -7,7 +7,7 @@ Search & extraction API · [https://tavily.com](https://tavily.com)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Tavily MCP](https://github.com/tavily-ai/tavily-mcp) | Search & Content Extraction | ☁️ Hosted · 🏠 Local | 2.5K | 74.0 |
+| [Tavily MCP](https://github.com/tavily-ai/tavily-mcp) | Search & Content Extraction | ☁️ Hosted · 🏠 Local | 2.5K | 73.8 |
 
 - [**Tavily MCP**](https://github.com/tavily-ai/tavily-mcp) - Web search, URL extraction, site mapping and crawling through the Tavily API.<br><sub>⭐ 2.5K · ☁️ Hosted · 🏠 Local · 🔑 Free tier: 1,000 credits/month · `Search` · `Crawl` · `Markdown`</sub>
 

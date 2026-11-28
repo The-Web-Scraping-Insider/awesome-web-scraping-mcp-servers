@@ -7,7 +7,7 @@ AI extraction API · [https://www.agentql.com](https://www.agentql.com)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [AgentQL MCP](https://github.com/tinyfish-io/agentql-mcp) | Search & Content Extraction | 🏠 Local | 184 | 54.4 |
+| [AgentQL MCP](https://github.com/tinyfish-io/agentql-mcp) | Search & Content Extraction | 🏠 Local | 184 | 54.2 |
 
 - [**AgentQL MCP**](https://github.com/tinyfish-io/agentql-mcp) - Extract structured data from web pages with AgentQL queries.<br><sub>⭐ 184 · 🏠 Local · 🔑 API key · `JSON` · `JS`</sub>
 

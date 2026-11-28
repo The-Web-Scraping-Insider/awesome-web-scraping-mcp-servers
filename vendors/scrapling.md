@@ -7,9 +7,9 @@ Open-source scraping library · [https://github.com/D4Vinci/Scrapling](https://g
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Scrapling MCP](https://github.com/D4Vinci/Scrapling) | Stealth & Anti-detect Browsers | 🏠 Local | 106.2K | 93.4 |
+| [Scrapling MCP](https://github.com/D4Vinci/Scrapling) | Stealth & Anti-detect Browsers | 🏠 Local | 106.7K | 93.8 |
 
-- [**Scrapling MCP**](https://github.com/D4Vinci/Scrapling) - Stealth HTTP and browser fetching with Cloudflare handling and CSS-selector extraction, from the Scrapling library.<br><sub>⭐ 106.2K† · 🏠 Local · 🆓 Free · `Anti-bot` · `JS` · `Browser` · `JSON`</sub>
+- [**Scrapling MCP**](https://github.com/D4Vinci/Scrapling) - Stealth HTTP and browser fetching with Cloudflare handling and CSS-selector extraction, from the Scrapling library.<br><sub>⭐ 106.7K† · 🏠 Local · 🆓 Free · `Anti-bot` · `JS` · `Browser` · `JSON`</sub>
 
 <details><summary>Install / connect</summary>
 

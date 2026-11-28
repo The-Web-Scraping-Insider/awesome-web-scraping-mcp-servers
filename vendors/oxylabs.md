@@ -7,7 +7,7 @@ Proxies, unblocker & scraping APIs · [https://oxylabs.io](https://oxylabs.io)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Oxylabs MCP](https://github.com/oxylabs/oxylabs-mcp) | Scraping APIs & Unblockers | ☁️ Hosted · 🏠 Local | 105 | 51.1 |
+| [Oxylabs MCP](https://github.com/oxylabs/oxylabs-mcp) | Scraping APIs & Unblockers | ☁️ Hosted · 🏠 Local | 105 | 50.9 |
 
 - [**Oxylabs MCP**](https://github.com/oxylabs/oxylabs-mcp) - Universal, Google and Amazon scrapers through the Web Scraper API, plus AI Studio tools for AI scraping, crawling, search and mapping.<br><sub>⭐ 105 · ☁️ Hosted · 🏠 Local · 🔑 Free tier: 1,000 AI Studio credits; one-week Web Scraper API trial · `Anti-bot` · `JS` · `Proxies` · `Search` · `Crawl` · `JSON` · `Markdown`</sub>
 

@@ -7,9 +7,9 @@ Scraping platform & Actor marketplace · [https://apify.com](https://apify.com)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Apify MCP](https://github.com/apify/apify-mcp-server) | Marketplaces & Pre-built Scrapers | ☁️ Hosted · 🏠 Local | 18.1K | 90.8 |
+| [Apify MCP](https://github.com/apify/apify-mcp-server) | Marketplaces & Pre-built Scrapers | ☁️ Hosted · 🏠 Local | 18.3K | 90.7 |
 
-- [**Apify MCP**](https://github.com/apify/apify-mcp-server) - Search the Apify Store and run any of thousands of ready-made scrapers (Actors) for social media, maps, e-commerce and more.<br><sub>⭐ 18.1K · ☁️ Hosted · 🏠 Local · 🔑 Free tier: $5/month platform usage · `Anti-bot` · `JSON` · `Crawl` · `Search`</sub>
+- [**Apify MCP**](https://github.com/apify/apify-mcp-server) - Search the Apify Store and run any of thousands of ready-made scrapers (Actors) for social media, maps, e-commerce and more.<br><sub>⭐ 18.3K · ☁️ Hosted · 🏠 Local · 🔑 Free tier: $5/month platform usage · `Anti-bot` · `JSON` · `Crawl` · `Search`</sub>
 
 <details><summary>Install / connect</summary>
 

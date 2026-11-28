@@ -7,7 +7,7 @@ Let the agent drive a browser on your own machine with Playwright, Selenium or C
 
 ## Official
 
-- [**Chrome DevTools MCP**](https://github.com/ChromeDevTools/chrome-devtools-mcp) by [Chrome DevTools (Google)](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Control and inspect a live Chrome browser, including network requests, console and performance traces.<br><sub>⭐ 59.6K · 🏠 Local · 🆓 Free · `Browser` · `JS` · `Screenshots`</sub>
+- [**Chrome DevTools MCP**](https://github.com/ChromeDevTools/chrome-devtools-mcp) by [Chrome DevTools (Google)](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Control and inspect a live Chrome browser, including network requests, console and performance traces.<br><sub>⭐ 59.7K · 🏠 Local · 🆓 Free · `Browser` · `JS` · `Screenshots`</sub>
 - [**Playwright MCP**](https://github.com/microsoft/playwright-mcp) by [Microsoft](https://playwright.dev) - Drive Chrome, Firefox or WebKit through accessibility snapshots, with 70+ tools for navigation, forms, screenshots and tracing.<br><sub>⭐ 40.2K · 🏠 Local · 🆓 Free · `Browser` · `JS` · `Screenshots`</sub>
 - [**Browser MCP**](https://github.com/browsermcp/mcp) by [Browser MCP](https://browsermcp.io) - Automate your own local Chrome, including its logged-in sessions, through a browser extension.<br><sub>⭐ 7.4K · 🏠 Local · 🆓 Free · `Browser` · `JS`</sub>
 

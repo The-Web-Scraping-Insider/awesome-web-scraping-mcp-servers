@@ -7,7 +7,7 @@ Free, self-hosted browsers and fetchers built to avoid bot detection.
 
 ## Official
 
-- [**Scrapling MCP**](https://github.com/D4Vinci/Scrapling) by [Scrapling](https://github.com/D4Vinci/Scrapling) - Stealth HTTP and browser fetching with Cloudflare handling and CSS-selector extraction, from the Scrapling library.<br><sub>⭐ 106.2K† · 🏠 Local · 🆓 Free · `Anti-bot` · `JS` · `Browser` · `JSON`</sub>
+- [**Scrapling MCP**](https://github.com/D4Vinci/Scrapling) by [Scrapling](https://github.com/D4Vinci/Scrapling) - Stealth HTTP and browser fetching with Cloudflare handling and CSS-selector extraction, from the Scrapling library.<br><sub>⭐ 106.7K† · 🏠 Local · 🆓 Free · `Anti-bot` · `JS` · `Browser` · `JSON`</sub>
 
 <details><summary>Install / connect</summary>
 
@@ -22,7 +22,7 @@ pip install "scrapling[ai]" && scrapling mcp
 
 - [**Invisible Playwright MCP**](https://github.com/oss-invisible/playwright_mcp) by [@oss-invisible](https://github.com/oss-invisible) - Playwright MCP variant focused on avoiding bot detection.<br><sub>⭐ 815 · 🏠 Local · 🆓 Free · `Anti-bot` · `Browser` · `JS`</sub>
 - [**camofox-mcp**](https://github.com/redf0x1/camofox-mcp) by [@redf0x1](https://github.com/redf0x1) - Anti-detection browsing through Camoufox, a Firefox fork that spoofs browser fingerprints.<br><sub>⭐ 129 · 🏠 Local · 🆓 Free · `Anti-bot` · `Browser` · `JS`</sub>
-- [**camoufox-mcp-server**](https://github.com/whit3rabbit/camoufox-mcp) by [@whit3rabbit](https://github.com/whit3rabbit) - Browser automation on Camoufox with its anti-detection features.<br><sub>⭐ 56 · 🏠 Local · 🆓 Free · `Anti-bot` · `Browser` · `JS`</sub>
+- [**camoufox-mcp-server**](https://github.com/whit3rabbit/camoufox-mcp) by [@whit3rabbit](https://github.com/whit3rabbit) - Browser automation on Camoufox with its anti-detection features.<br><sub>⭐ 57 · 🏠 Local · 🆓 Free · `Anti-bot` · `Browser` · `JS`</sub>
 
 <details><summary>Install / connect</summary>
 

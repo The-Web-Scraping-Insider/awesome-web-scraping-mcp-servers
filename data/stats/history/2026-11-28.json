@@ -1,0 +1,215 @@
+{
+  "repos": {
+    "ChromeDevTools/chrome-devtools-mcp": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-11-27T14:34:29Z",
+      "stars": 59680
+    },
+    "D4Vinci/Scrapling": {
+      "archived": false,
+      "license": "BSD-3-Clause",
+      "pushed_at": "2026-11-28T00:24:39Z",
+      "stars": 106686
+    },
+    "Decodo/mcp-web-scraper": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-27T08:53:19Z",
+      "stars": 43
+    },
+    "Saik0s/mcp-browser-use": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-02-11T02:40:55Z",
+      "stars": 971
+    },
+    "ScrapeGraphAI/scrapegraph-mcp": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-07-17T08:36:14Z",
+      "stars": 123
+    },
+    "ScrapeOps/scrapeops-mcp-server": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-13T15:56:57Z",
+      "stars": 0
+    },
+    "Skyvern-AI/skyvern": {
+      "archived": false,
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-28T12:08:46Z",
+      "stars": 23558
+    },
+    "ZenRows/zenrows-mcp": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-23T21:40:21Z",
+      "stars": 22
+    },
+    "angiejones/mcp-selenium": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-02-23T03:24:23Z",
+      "stars": 431
+    },
+    "apify/apify-mcp-server": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-27T13:42:51Z",
+      "stars": 18258
+    },
+    "brightdata/brightdata-mcp": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-26T11:05:11Z",
+      "stars": 2741
+    },
+    "browserbase/mcp-server-browserbase": {
+      "archived": true,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-07-20T21:48:14Z",
+      "stars": 3397
+    },
+    "browsermcp/mcp": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-11-12T16:35:15Z",
+      "stars": 7426
+    },
+    "coleam00/mcp-crawl4ai-rag": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2025-07-25T15:17:13Z",
+      "stars": 2269
+    },
+    "exa-labs/exa-mcp-server": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-21T00:16:23Z",
+      "stars": 5275
+    },
+    "executeautomation/mcp-playwright": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2025-12-13T04:28:38Z",
+      "stars": 5682
+    },
+    "firecrawl/firecrawl-mcp-server": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-27T18:43:32Z",
+      "stars": 7939
+    },
+    "hyperbrowserai/mcp": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2025-11-20T01:32:08Z",
+      "stars": 795
+    },
+    "kontext-dev/browser-use-mcp-server": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-17T10:10:38Z",
+      "stars": 849
+    },
+    "microsoft/playwright-mcp": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-11-27T22:43:57Z",
+      "stars": 40237
+    },
+    "modelcontextprotocol/servers": {
+      "archived": false,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-27T10:34:05Z",
+      "stars": 92312
+    },
+    "nottelabs/notte": {
+      "archived": false,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-11-28T14:02:22Z",
+      "stars": 2079
+    },
+    "olostep/olostep-mcp-server": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-25T15:21:29Z",
+      "stars": 25
+    },
+    "oss-invisible/playwright_mcp": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-24T15:16:44Z",
+      "stars": 815
+    },
+    "oxylabs/oxylabs-mcp": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-27T10:18:27Z",
+      "stars": 105
+    },
+    "redf0x1/camofox-mcp": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-06T02:51:56Z",
+      "stars": 129
+    },
+    "steel-dev/steel-mcp-server": {
+      "archived": true,
+      "license": "MIT",
+      "pushed_at": "2026-10-26T05:40:03Z",
+      "stars": 58
+    },
+    "tavily-ai/tavily-mcp": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-18T12:15:06Z",
+      "stars": 2504
+    },
+    "tinyfish-io/agentql-mcp": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-21T08:45:41Z",
+      "stars": 184
+    },
+    "unclecode/crawl4ai": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-11-23T06:00:27Z",
+      "stars": 88079
+    },
+    "walksoda/crawl-mcp": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-07T01:46:26Z",
+      "stars": 49
+    },
+    "whit3rabbit/camoufox-mcp": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-23T20:38:24Z",
+      "stars": 57
+    },
+    "willbohn/spider-mcp": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-27T14:43:24Z",
+      "stars": 1
+    },
+    "wyattowalsh/crawl4ai-mcp": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-23T15:44:53Z",
+      "stars": 1
+    },
+    "zcaceres/fetch-mcp": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-28T14:09:53Z",
+      "stars": 835
+    }
+  },
+  "updated": "2026-11-28"
+}
