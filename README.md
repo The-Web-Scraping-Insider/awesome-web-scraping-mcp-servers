@@ -22,6 +22,7 @@
 - [Browse by category](#browse-by-category)
 - [Related lists](#related-lists)
 - [Contributing](#contributing)
+- [Are you listed? Add the badge](#are-you-listed-add-the-badge)
 - [How the ranking works](#how-the-ranking-works)
 
 ## What is a scraping MCP server?
@@ -48,15 +49,15 @@ Ranked by score (GitHub stars and recent activity; see [how the ranking works](#
 | # | Server | Publisher | Type | Hosting | ⭐ Stars | Score |
 |---:|---|---|---|---|---:|---:|
 | 1 | [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools (Google) | Open source | 🏠 Local | 59.6K | 100.0 |
-| 2 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Microsoft | Open source | 🏠 Local | 40.2K | 95.6 |
-| 3 | [Scrapling MCP](https://github.com/D4Vinci/Scrapling) | Scrapling | Open source | 🏠 Local | 106.2K† | 93.6 |
+| 2 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Microsoft | Open source | 🏠 Local | 40.2K | 95.5 |
+| 3 | [Scrapling MCP](https://github.com/D4Vinci/Scrapling) | Scrapling | Open source | 🏠 Local | 106.2K† | 93.4 |
 | 4 | [Fetch (reference server)](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) | Model Context Protocol | Open source | 🏠 Local | 92.3K† | 92.7 |
-| 5 | [Crawl4AI (built-in MCP)](https://docs.crawl4ai.com) | Crawl4AI | Open source | ☁️ Hosted · 🏠 Local | 88K† | 91.6 |
+| 5 | [Crawl4AI (built-in MCP)](https://docs.crawl4ai.com) | Crawl4AI | Open source | ☁️ Hosted · 🏠 Local | 88K† | 91.5 |
 | 6 | [Apify MCP](https://github.com/apify/apify-mcp-server) | Apify | Vendor | ☁️ Hosted · 🏠 Local | 18.1K | 90.8 |
 | 7 | [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | Firecrawl | Vendor | ☁️ Hosted · 🏠 Local | 7.9K | 84.4 |
 | 8 | [Skyvern MCP](https://github.com/Skyvern-AI/skyvern) | Skyvern | Vendor | ☁️ Hosted · 🏠 Local | 23.6K† | 82.1 |
-| 9 | [Browser MCP](https://github.com/browsermcp/mcp) | Browser MCP | Open source | 🏠 Local | 7.4K | 81.6 |
-| 10 | [Exa MCP](https://github.com/exa-labs/exa-mcp-server) | Exa | Vendor | ☁️ Hosted · 🏠 Local | 5.3K | 80.3 |
+| 9 | [Browser MCP](https://github.com/browsermcp/mcp) | Browser MCP | Open source | 🏠 Local | 7.4K | 81.4 |
+| 10 | [Exa MCP](https://github.com/exa-labs/exa-mcp-server) | Exa | Vendor | ☁️ Hosted · 🏠 Local | 5.3K | 80.1 |
 
 ### 🏢 From vendors
 
@@ -65,7 +66,7 @@ Ranked by score (GitHub stars and recent activity; see [how the ranking works](#
 | 1 | [Apify MCP](https://github.com/apify/apify-mcp-server) | Apify | ☁️ Hosted · 🏠 Local | 18.1K | 90.8 |
 | 2 | [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | Firecrawl | ☁️ Hosted · 🏠 Local | 7.9K | 84.4 |
 | 3 | [Skyvern MCP](https://github.com/Skyvern-AI/skyvern) | Skyvern | ☁️ Hosted · 🏠 Local | 23.6K† | 82.1 |
-| 4 | [Exa MCP](https://github.com/exa-labs/exa-mcp-server) | Exa | ☁️ Hosted · 🏠 Local | 5.3K | 80.3 |
+| 4 | [Exa MCP](https://github.com/exa-labs/exa-mcp-server) | Exa | ☁️ Hosted · 🏠 Local | 5.3K | 80.1 |
 | 5 | [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | Bright Data | ☁️ Hosted · 🏠 Local | 2.7K | 76.0 |
 | 6 | [Tavily MCP](https://github.com/tavily-ai/tavily-mcp) | Tavily | ☁️ Hosted · 🏠 Local | 2.5K | 74.0 |
 | 7 | [Notte MCP](https://github.com/nottelabs/notte) | Notte | 🏠 Local | 2.1K† | 63.4 |
@@ -78,14 +79,14 @@ Ranked by score (GitHub stars and recent activity; see [how the ranking works](#
 | # | Server | Publisher | Type | Hosting | ⭐ Stars | Score |
 |---:|---|---|---|---|---:|---:|
 | 1 | [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools (Google) | Open source | 🏠 Local | 59.6K | 100.0 |
-| 2 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Microsoft | Open source | 🏠 Local | 40.2K | 95.6 |
-| 3 | [Scrapling MCP](https://github.com/D4Vinci/Scrapling) | Scrapling | Open source | 🏠 Local | 106.2K† | 93.6 |
+| 2 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Microsoft | Open source | 🏠 Local | 40.2K | 95.5 |
+| 3 | [Scrapling MCP](https://github.com/D4Vinci/Scrapling) | Scrapling | Open source | 🏠 Local | 106.2K† | 93.4 |
 | 4 | [Fetch (reference server)](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) | Model Context Protocol | Open source | 🏠 Local | 92.3K† | 92.7 |
-| 5 | [Crawl4AI (built-in MCP)](https://docs.crawl4ai.com) | Crawl4AI | Open source | ☁️ Hosted · 🏠 Local | 88K† | 91.6 |
-| 6 | [Browser MCP](https://github.com/browsermcp/mcp) | Browser MCP | Open source | 🏠 Local | 7.4K | 81.6 |
+| 5 | [Crawl4AI (built-in MCP)](https://docs.crawl4ai.com) | Crawl4AI | Open source | ☁️ Hosted · 🏠 Local | 88K† | 91.5 |
+| 6 | [Browser MCP](https://github.com/browsermcp/mcp) | Browser MCP | Open source | 🏠 Local | 7.4K | 81.4 |
 | 7 | [fetch-mcp](https://github.com/zcaceres/fetch-mcp) | @zcaceres | Community | 🏠 Local | 835 | 67.0 |
 | 8 | [Playwright MCP Server](https://github.com/executeautomation/mcp-playwright) | @executeautomation | Community | 🏠 Local | 5.7K | 66.8 |
-| 9 | [Invisible Playwright MCP](https://github.com/oss-invisible/playwright_mcp) | @oss-invisible | Community | 🏠 Local | 815 | 66.5 |
+| 9 | [Invisible Playwright MCP](https://github.com/oss-invisible/playwright_mcp) | @oss-invisible | Community | 🏠 Local | 815 | 66.3 |
 | 10 | [browser-use-mcp-server](https://github.com/kontext-dev/browser-use-mcp-server) | @kontext-dev | Community | 🏠 Local | 849 | 65.5 |
 
 <sub>† Stars belong to a bigger project that includes the MCP server, so they count for less in the score.</sub>
@@ -429,18 +430,49 @@ Or by vendor: [AgentQL (TinyFish)](vendors/agentql.md) · [Apify](vendors/apify.
 
 Missing a server? [Submit it with the form](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers/issues/new?template=submit-server.yml) or open a PR that edits [`data/servers.yaml`](data/servers.yaml). Don't edit this README; it's generated. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**Are you listed?** Add the badge to your repo:
+## Are you listed? Add the badge
 
-[![Featured in Awesome Web Scraping MCP Servers](assets/badges/featured.svg)](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers)
+If your project is on this list, show it off in your README:
+
+[![Listed in Awesome Web Scraping MCP Servers](https://img.shields.io/badge/listed%20in-Awesome%20Web%20Scraping%20MCP%20Servers-2F64F7?labelColor=111A2D)](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers)
+
+**Markdown**
 
 ```markdown
-[![Featured in Awesome Web Scraping MCP Servers](https://raw.githubusercontent.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers/main/assets/badges/featured.svg)](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers)
+[![Listed in Awesome Web Scraping MCP Servers](https://img.shields.io/badge/listed%20in-Awesome%20Web%20Scraping%20MCP%20Servers-2F64F7?labelColor=111A2D)](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers)
 ```
+
+**HTML**
+
+```html
+<a href="https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers"><img src="https://img.shields.io/badge/listed%20in-Awesome%20Web%20Scraping%20MCP%20Servers-2F64F7?labelColor=111A2D" alt="Listed in Awesome Web Scraping MCP Servers"></a>
+```
+
+<sub>Prefer a bigger badge? Add <code>&amp;style=for-the-badge</code> to the image URL.</sub>
 
 ## How the ranking works
 
 Each server gets a score from 0 to 100: **85% GitHub stars** (log-scaled) and **15% recent activity** (commits in the last 90 days). Stars of a bigger project that only includes an MCP server count for a quarter, and archived repos are halved. Closed-source servers have no stars, so they rank by activity only and are listed for completeness. Inclusion is editorial; ranking is automatic and identical for every vendor. Details: [METHODOLOGY.md](METHODOLOGY.md).
 
+<div align="center"><sub>Curated by <a href="https://www.reddit.com/r/WebScrapingInsider/">The Web Scraping Insider</a> · Supported by <a href="https://scrapeops.io/?utm_source=awesome-web-scraping-mcp-servers&utm_medium=github">ScrapeOps</a> · Stats last refreshed 2026-11-27</sub></div>
+
+<!-- ORG-FOOTER:START - generated from shared/org.yml (canonical copy in The-Web-Scraping-Insider/.github); don't edit here -->
+
 ---
 
-<div align="center"><sub>Curated by <a href="https://www.reddit.com/r/WebScrapingInsider/">The Web Scraping Insider</a> · Supported by <a href="https://scrapeops.io/?utm_source=awesome-web-scraping-mcp-servers&utm_medium=github">ScrapeOps</a> · Stats last refreshed 2026-11-27</sub></div>
+<div align="center">
+
+### More from [The Web Scraping Insider](https://github.com/The-Web-Scraping-Insider)
+
+| Project | What it is |
+|---|---|
+| [**Awesome Web Scraping Skills**](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-skills) | Agent Skills that teach AI agents to scrape, ranked daily |
+| [**Web Scraping Expert AMAs**](https://github.com/The-Web-Scraping-Insider/web-scraping-expert-amas) | Transcripts and a Q&A dataset from our expert AMAs on r/WebScrapingInsider |
+
+📬 [Newsletter](https://thewebscrapinginsider.beehiiv.com?utm_source=awesome-web-scraping-mcp-servers&utm_medium=github&utm_campaign=org-footer) · 💬 [r/WebScrapingInsider](https://www.reddit.com/r/WebScrapingInsider/) · 🧭 [Hub](https://scrapeops.io/web-scraping-insider/?utm_source=awesome-web-scraping-mcp-servers&utm_medium=github&utm_campaign=org-footer) · 🐙 [All our repos](https://github.com/The-Web-Scraping-Insider)
+
+<sub>Built and maintained by the team at <a href="https://scrapeops.io/?utm_source=awesome-web-scraping-mcp-servers&utm_medium=github&utm_campaign=org-footer">ScrapeOps</a>.</sub>
+
+</div>
+
+<!-- ORG-FOOTER:END -->

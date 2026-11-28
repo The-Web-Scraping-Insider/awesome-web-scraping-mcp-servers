@@ -7,7 +7,7 @@ Scraping & crawling API · [https://www.olostep.com](https://www.olostep.com)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Olostep MCP](https://github.com/olostep/olostep-mcp-server) | Scraping APIs & Unblockers | ☁️ Hosted · 🏠 Local | 25 | 40.0 |
+| [Olostep MCP](https://github.com/olostep/olostep-mcp-server) | Scraping APIs & Unblockers | ☁️ Hosted · 🏠 Local | 25 | 39.9 |
 
 - [**Olostep MCP**](https://github.com/olostep/olostep-mcp-server) - Scrape, crawl, batch-extract and search the web through the Olostep API.<br><sub>⭐ 25 · ☁️ Hosted · 🏠 Local · 🔑 Free tier: 500 requests/month · `JS` · `Crawl` · `Search` · `Markdown`</sub>
 

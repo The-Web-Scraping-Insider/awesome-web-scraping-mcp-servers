@@ -7,7 +7,7 @@ Cloud browsers · [https://steel.dev](https://steel.dev)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Steel MCP](https://github.com/steel-dev/steel-mcp-server) | Cloud Browsers | 🏠 Local | 58 | 20.6 |
+| [Steel MCP](https://github.com/steel-dev/steel-mcp-server) | Cloud Browsers | 🏠 Local | 58 | 20.5 |
 
 - [**Steel MCP**](https://github.com/steel-dev/steel-mcp-server) - Navigate the web with Puppeteer-based tools on Steel cloud or self-hosted browsers.<br><sub>⭐ 58 · 📦 Archived · 🏠 Local · 🔑 API key · `Browser` · `JS`</sub>
 

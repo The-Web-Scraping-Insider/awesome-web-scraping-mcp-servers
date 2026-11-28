@@ -7,7 +7,7 @@ Open-source crawler · [https://crawl4ai.com](https://crawl4ai.com)
 
 | Server | Category | Hosting | ⭐ Stars | Score |
 |---|---|---|---:|---:|
-| [Crawl4AI (built-in MCP)](https://docs.crawl4ai.com) | Self-hosted Crawlers | ☁️ Hosted · 🏠 Local | 88K | 91.6 |
+| [Crawl4AI (built-in MCP)](https://docs.crawl4ai.com) | Self-hosted Crawlers | ☁️ Hosted · 🏠 Local | 88K | 91.5 |
 
 - [**Crawl4AI (built-in MCP)**](https://docs.crawl4ai.com) - Crawl4AI's Docker server exposes an MCP endpoint for crawling, scraping, screenshots, PDFs and extraction.<br><sub>⭐ 88K† · ☁️ Hosted · 🏠 Local · 🆓 Free · `Crawl` · `JS` · `JSON` · `Markdown` · `Screenshots`</sub>
 
